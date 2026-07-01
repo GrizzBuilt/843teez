@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-01T22:30:01.622Z",
-  "count": 5,
+  "generatedAt": "2026-07-01T23:00:01.632Z",
+  "count": 4,
   "completedCount": 10,
   "orders": [
     {
@@ -28,14 +28,6 @@
       "completedAt": null
     },
     {
-      "orderNumber": "843-2026-0070",
-      "customer": "N.Barnes",
-      "status": "Ready for Pickup",
-      "createdAt": "2026-06-28 22:49:03",
-      "updatedAt": "2026-06-30 00:44:37",
-      "completedAt": null
-    },
-    {
       "orderNumber": "843-2026-0071",
       "customer": "Fizzy Sips",
       "status": "In Production",
@@ -45,6 +37,14 @@
     }
   ],
   "recentlyCompleted": [
+    {
+      "orderNumber": "843-2026-0070",
+      "customer": "N.Barnes",
+      "status": "Completed",
+      "createdAt": "2026-06-28 22:49:03",
+      "updatedAt": "2026-07-01 22:57:14",
+      "completedAt": "2026-07-01T22:57:14.693Z"
+    },
     {
       "orderNumber": "843-2026-0072",
       "customer": "S.Fischett",
@@ -116,14 +116,6 @@
       "createdAt": "2026-05-16 21:17:05",
       "updatedAt": "2026-05-25 20:44:29",
       "completedAt": "2026-05-25T20:44:29.367Z"
-    },
-    {
-      "orderNumber": "843-2026-0058",
-      "customer": "DAX Hauling and Services",
-      "status": "Completed",
-      "createdAt": "2026-05-14 22:40:06",
-      "updatedAt": "2026-05-22 21:43:56",
-      "completedAt": "2026-05-22T21:43:56.053Z"
     }
   ]
 }
