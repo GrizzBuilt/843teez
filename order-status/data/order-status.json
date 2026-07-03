@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T16:30:01.498Z",
+  "generatedAt": "2026-07-03T17:00:01.653Z",
   "count": 4,
   "completedCount": 10,
   "orders": [
@@ -30,9 +30,9 @@
     {
       "orderNumber": "843-2026-0071",
       "customer": "Fizzy Sips",
-      "status": "In Production",
+      "status": "Ready for Pickup",
       "createdAt": "2026-06-30 00:42:20",
-      "updatedAt": "2026-07-01 15:41:36",
+      "updatedAt": "2026-07-03 16:51:53",
       "completedAt": null
     }
   ],
