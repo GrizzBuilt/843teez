@@ -176,6 +176,112 @@
     .btn-order-status:hover{
       background:#ea580c;
     }
+
+    .reviews-marquee{
+      overflow:hidden;
+      margin-top:1rem;
+    }
+
+    .reviews-track{
+      display:flex;
+      width:max-content;
+      animation:reviews-scroll 80s linear infinite;
+      will-change:transform;
+    }
+
+    .reviews-set{
+      display:flex;
+      align-items:stretch;
+      gap:1rem;
+      padding-right:1rem;
+    }
+
+    .review-card{
+      box-sizing:border-box;
+      display:flex;
+      flex:0 0 min(82vw,22rem);
+      flex-direction:column;
+      width:min(82vw,22rem);
+      min-height:15rem;
+      padding:1.25rem;
+      background:#fff;
+      border:1px solid #e5e7eb;
+      border-radius:1rem;
+      box-shadow:0 4px 14px rgba(0,52,102,.08);
+    }
+
+    .review-card:focus-visible,
+    .reviews-marquee:focus-visible{
+      outline:3px solid rgba(0,124,158,.35);
+      outline-offset:3px;
+    }
+
+    .review-stars{
+      color:#f59e0b;
+      font-size:1.1rem;
+      line-height:1;
+      letter-spacing:0;
+    }
+
+    .reviewer-name{
+      margin-top:.85rem;
+      color:#003466;
+      font-weight:800;
+    }
+
+    .review-meta{
+      display:flex;
+      flex-wrap:wrap;
+      gap:.35rem .65rem;
+      margin-top:.2rem;
+      color:#6b7280;
+      font-size:.75rem;
+      line-height:1.2rem;
+    }
+
+    .local-guide{
+      color:#007c9e;
+      font-weight:700;
+    }
+
+    .review-quote{
+      flex:1;
+      margin-top:1rem;
+      color:#374151;
+      font-size:.925rem;
+      line-height:1.5rem;
+    }
+
+    .reviews-marquee:hover .reviews-track,
+    .reviews-marquee:focus-within .reviews-track{
+      animation-play-state:paused;
+    }
+
+    @keyframes reviews-scroll{
+      from{transform:translateX(0);}
+      to{transform:translateX(-50%);}
+    }
+
+    @media (prefers-reduced-motion:reduce){
+      .reviews-marquee{
+        overflow-x:auto;
+        padding-bottom:.5rem;
+        scroll-snap-type:x proximity;
+      }
+
+      .reviews-track{
+        animation:none;
+        will-change:auto;
+      }
+
+      .reviews-set[aria-hidden="true"]{
+        display:none;
+      }
+
+      .review-card{
+        scroll-snap-align:start;
+      }
+    }
   </style>
 
   <script type="application/ld+json">
@@ -670,6 +776,129 @@
             <p class="text-sm italic text-gray-700 mb-2">“Way more personal than ordering from some giant site.”</p>
             <p class="text-xs font-bold text-[#003466]">Emma - CCU Student</p>
           </div>
+        </div>
+      </section>
+
+      <section id="reviews" class="cv-auto" aria-labelledby="reviews-title">
+        <h2 id="reviews-title">Rated 5 Stars on Google</h2>
+        <p class="mb-4">
+          Real reviews from customers across Conway, Myrtle Beach, and the Grand Strand.
+        </p>
+
+        <div class="reviews-marquee" role="region" aria-label="Customer reviews" tabindex="0">
+          <div class="reviews-track">
+            <div class="reviews-set">
+              <article class="review-card" tabindex="0">
+                <p class="review-stars" aria-label="5 out of 5 stars"><span aria-hidden="true">★★★★★</span></p>
+                <p class="reviewer-name">Nicole Herrera</p>
+                <p class="review-meta"><span>2 weeks ago</span></p>
+                <p class="review-quote">“Todd &amp; Heather are absolutely AMAZING!!! So incredible to work with and fabulous customer service.”</p>
+              </article>
+
+              <article class="review-card" tabindex="0">
+                <p class="review-stars" aria-label="5 out of 5 stars"><span aria-hidden="true">★★★★★</span></p>
+                <p class="reviewer-name">Sloan Huggins</p>
+                <p class="review-meta"><span class="local-guide">Local Guide</span><span>a month ago</span></p>
+                <p class="review-quote">“Absolutely love the shirts we received from 843Teez!! The communication was on point! They helped us design a beautiful shirt for our company and the prices are unbeatable! We will definitely be repeat customers!!”</p>
+              </article>
+
+              <article class="review-card" tabindex="0">
+                <p class="review-stars" aria-label="5 out of 5 stars"><span aria-hidden="true">★★★★★</span></p>
+                <p class="reviewer-name">Kayci and Justin (DAX)</p>
+                <p class="review-meta"><span>3 months ago</span></p>
+                <p class="review-quote">“We’ve purchased t-shirts 2 times now for our business and both times they’ve been exceptional quality, amazing customer service and just all around a great experience.”</p>
+              </article>
+
+              <article class="review-card" tabindex="0">
+                <p class="review-stars" aria-label="5 out of 5 stars"><span aria-hidden="true">★★★★★</span></p>
+                <p class="reviewer-name">Terry Baker</p>
+                <p class="review-meta"><span class="local-guide">Local Guide</span><span>3 months ago</span></p>
+                <p class="review-quote">“These guys are awesome. Todd and company are the best in the business!!”</p>
+              </article>
+
+              <article class="review-card" tabindex="0">
+                <p class="review-stars" aria-label="5 out of 5 stars"><span aria-hidden="true">★★★★★</span></p>
+                <p class="reviewer-name">Gary Lefevre</p>
+                <p class="review-meta"><span class="local-guide">Local Guide</span><span>4 months ago</span></p>
+                <p class="review-quote">“I ordered quite a few t-shirts for my business. They were perfect - exactly what they said and on-time! Great people to deal with - great communication.”</p>
+              </article>
+
+              <article class="review-card" tabindex="0">
+                <p class="review-stars" aria-label="5 out of 5 stars"><span aria-hidden="true">★★★★★</span></p>
+                <p class="reviewer-name">Matthew Crossman</p>
+                <p class="review-meta"><span>4 months ago</span></p>
+                <p class="review-quote">“Purchased from Out of State. Quick and Friendly service. Great quality shirts.”</p>
+              </article>
+
+              <article class="review-card" tabindex="0">
+                <p class="review-stars" aria-label="5 out of 5 stars"><span aria-hidden="true">★★★★★</span></p>
+                <p class="reviewer-name">Todd Singleton</p>
+                <p class="review-meta"><span class="local-guide">Local Guide</span><span>9 months ago</span></p>
+                <p class="review-quote">“Great quality and fast shipping... Great people, and that is the kind of company you want to deal with again!”</p>
+              </article>
+            </div>
+
+            <div class="reviews-set" aria-hidden="true">
+              <article class="review-card">
+                <p class="review-stars"><span>★★★★★</span></p>
+                <p class="reviewer-name">Nicole Herrera</p>
+                <p class="review-meta"><span>2 weeks ago</span></p>
+                <p class="review-quote">“Todd &amp; Heather are absolutely AMAZING!!! So incredible to work with and fabulous customer service.”</p>
+              </article>
+
+              <article class="review-card">
+                <p class="review-stars"><span>★★★★★</span></p>
+                <p class="reviewer-name">Sloan Huggins</p>
+                <p class="review-meta"><span class="local-guide">Local Guide</span><span>a month ago</span></p>
+                <p class="review-quote">“Absolutely love the shirts we received from 843Teez!! The communication was on point! They helped us design a beautiful shirt for our company and the prices are unbeatable! We will definitely be repeat customers!!”</p>
+              </article>
+
+              <article class="review-card">
+                <p class="review-stars"><span>★★★★★</span></p>
+                <p class="reviewer-name">Kayci and Justin (DAX)</p>
+                <p class="review-meta"><span>3 months ago</span></p>
+                <p class="review-quote">“We’ve purchased t-shirts 2 times now for our business and both times they’ve been exceptional quality, amazing customer service and just all around a great experience.”</p>
+              </article>
+
+              <article class="review-card">
+                <p class="review-stars"><span>★★★★★</span></p>
+                <p class="reviewer-name">Terry Baker</p>
+                <p class="review-meta"><span class="local-guide">Local Guide</span><span>3 months ago</span></p>
+                <p class="review-quote">“These guys are awesome. Todd and company are the best in the business!!”</p>
+              </article>
+
+              <article class="review-card">
+                <p class="review-stars"><span>★★★★★</span></p>
+                <p class="reviewer-name">Gary Lefevre</p>
+                <p class="review-meta"><span class="local-guide">Local Guide</span><span>4 months ago</span></p>
+                <p class="review-quote">“I ordered quite a few t-shirts for my business. They were perfect - exactly what they said and on-time! Great people to deal with - great communication.”</p>
+              </article>
+
+              <article class="review-card">
+                <p class="review-stars"><span>★★★★★</span></p>
+                <p class="reviewer-name">Matthew Crossman</p>
+                <p class="review-meta"><span>4 months ago</span></p>
+                <p class="review-quote">“Purchased from Out of State. Quick and Friendly service. Great quality shirts.”</p>
+              </article>
+
+              <article class="review-card">
+                <p class="review-stars"><span>★★★★★</span></p>
+                <p class="reviewer-name">Todd Singleton</p>
+                <p class="review-meta"><span class="local-guide">Local Guide</span><span>9 months ago</span></p>
+                <p class="review-quote">“Great quality and fast shipping... Great people, and that is the kind of company you want to deal with again!”</p>
+              </article>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-6 text-center">
+          <!-- TODO: Replace this Google Maps search URL with the direct 843 Teez Google Business reviews URL when available. -->
+          <a class="inline-block px-8 py-3 text-white font-bold rounded-xl transition-all duration-200 shadow-md btn-primary"
+             href="https://www.google.com/maps/search/?api=1&amp;query=843+Teez+Conway+SC"
+             target="_blank"
+             rel="noopener">
+            Read all Google Reviews
+          </a>
         </div>
       </section>
 
