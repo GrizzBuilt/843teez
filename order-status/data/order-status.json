@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-07-05T21:30:01.632Z",
+  "generatedAt": "2026-07-05T22:00:01.618Z",
   "count": 1,
   "completedCount": 10,
   "orders": [
     {
       "orderNumber": "843-2026-0068",
       "customer": "Conway Architectural Salvage and Heritage Project",
-      "status": "In Production",
+      "status": "Ready for Pickup",
       "createdAt": "2026-06-16 20:52:12",
-      "updatedAt": "2026-07-05 19:30:24",
+      "updatedAt": "2026-07-05 21:57:39",
       "completedAt": null
     }
   ],
