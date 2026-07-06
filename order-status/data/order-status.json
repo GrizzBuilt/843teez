@@ -1,16 +1,8 @@
 {
-  "generatedAt": "2026-07-06T20:00:01.627Z",
-  "count": 2,
+  "generatedAt": "2026-07-06T20:30:01.633Z",
+  "count": 1,
   "completedCount": 10,
   "orders": [
-    {
-      "orderNumber": "843-2026-0068",
-      "customer": "Conway Architectural Salvage and Heritage Project",
-      "status": "Ready for Pickup",
-      "createdAt": "2026-06-16 20:52:12",
-      "updatedAt": "2026-07-05 21:57:39",
-      "completedAt": null
-    },
     {
       "orderNumber": "843-2026-0073",
       "customer": "Homewell Care Servies",
@@ -21,6 +13,14 @@
     }
   ],
   "recentlyCompleted": [
+    {
+      "orderNumber": "843-2026-0068",
+      "customer": "Conway Architectural Salvage and Heritage Project",
+      "status": "Completed",
+      "createdAt": "2026-06-16 20:52:12",
+      "updatedAt": "2026-07-06 20:04:49",
+      "completedAt": "2026-07-06T20:04:49.492Z"
+    },
     {
       "orderNumber": "843-2026-0065",
       "customer": "Adams MMA - Samples",
@@ -92,14 +92,6 @@
       "createdAt": "2026-06-05 11:11:54",
       "updatedAt": "2026-06-15 12:52:16",
       "completedAt": "2026-06-15T12:52:16.756Z"
-    },
-    {
-      "orderNumber": "843-2026-0062",
-      "customer": "HCPR Summer Camp - Counsler Teez",
-      "status": "Completed",
-      "createdAt": "2026-05-22 21:43:32",
-      "updatedAt": "2026-06-01 19:02:55",
-      "completedAt": "2026-06-01T19:02:55.897Z"
     }
   ]
 }
