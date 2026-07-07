@@ -81,6 +81,20 @@
     .btn-primary{background-color:#003466;}
     .btn-primary:hover{background-color:#007c9e;}
 
+    .text-\[\#007c9e\],
+    .hover\:text-\[\#007c9e\]:hover{
+      color:#005f78;
+    }
+
+    .text-gray-600{
+      color:#374151;
+    }
+
+    a:focus-visible{
+      outline:3px solid #005f78;
+      outline-offset:3px;
+    }
+
     #main-content{min-height:calc(100vh - 80px);}
 
     .content h2{
@@ -169,12 +183,31 @@
     }
 
     .btn-order-status{
-      background:#f97316;
+      background:#c2410c;
       color:#fff;
     }
 
     .btn-order-status:hover{
-      background:#ea580c;
+      background:#9a3412;
+    }
+
+    .section-nav a,
+    .touch-link-row a,
+    .social-links a,
+    .site-footer a{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      min-width:44px;
+      min-height:44px;
+    }
+
+    header p a,
+    .content p a{
+      display:inline-block;
+      min-height:24px;
+      line-height:24px;
+      vertical-align:middle;
     }
 
     .reviews-marquee{
@@ -210,14 +243,8 @@
       box-shadow:0 4px 14px rgba(0,52,102,.08);
     }
 
-    .review-card:focus-visible,
-    .reviews-marquee:focus-visible{
-      outline:3px solid rgba(0,124,158,.35);
-      outline-offset:3px;
-    }
-
     .review-stars{
-      color:#f59e0b;
+      color:#b45309;
       font-size:1.1rem;
       line-height:1;
       letter-spacing:0;
@@ -234,13 +261,13 @@
       flex-wrap:wrap;
       gap:.35rem .65rem;
       margin-top:.2rem;
-      color:#6b7280;
+      color:#4b5563;
       font-size:.75rem;
       line-height:1.2rem;
     }
 
     .local-guide{
-      color:#007c9e;
+      color:#005f78;
       font-weight:700;
     }
 
@@ -253,7 +280,7 @@
     }
 
     .reviews-marquee:hover .reviews-track,
-    .reviews-marquee:focus-within .reviews-track{
+    #reviews:focus-within .reviews-track{
       animation-play-state:paused;
     }
 
@@ -501,7 +528,7 @@
         No-minimum full-color options and real local help for Conway, Myrtle Beach, Horry County, and the Grand Strand.
       </p>
 
-      <div class="mt-6 flex flex-col sm:flex-row gap-3 justify-center">
+      <div class="touch-link-row mt-6 flex flex-col sm:flex-row gap-3 justify-center">
         <a class="inline-block px-8 py-3 text-white font-bold rounded-xl transition-all duration-200 shadow-md bg-red-600 hover:bg-red-700"
            href="/quote.html">
           Get a Fast Quote
@@ -541,17 +568,17 @@
         </div>
       </div>
 
-      <div class="mt-6 flex flex-col sm:flex-row gap-3 justify-center">
+      <div class="touch-link-row mt-6 flex flex-col sm:flex-row gap-3 justify-center">
         <a class="text-[#007c9e] hover:text-[#003466] font-semibold inline-flex items-center justify-center"
            href="/custom-tshirts-conway-sc.html">
           Custom T-Shirts Conway, SC →
         </a>
-        <span class="hidden sm:inline text-gray-300">|</span>
+        <span class="hidden sm:inline text-gray-300" aria-hidden="true">|</span>
         <a class="text-[#007c9e] hover:text-[#003466] font-semibold inline-flex items-center justify-center"
            href="/dtf-printing-conway-sc.html">
           No-Minimum Full-Color Shirts →
         </a>
-        <span class="hidden sm:inline text-gray-300">|</span>
+        <span class="hidden sm:inline text-gray-300" aria-hidden="true">|</span>
         <a class="text-[#007c9e] hover:text-[#003466] font-semibold inline-flex items-center justify-center"
            href="/quote.html">
           Get a Custom Shirt Quote →
@@ -579,9 +606,9 @@
       </p>
     </header>
 
-    <main id="main" class="max-w-4xl mx-auto text-gray-700 leading-relaxed content">
+    <main id="main" tabindex="-1" class="max-w-4xl mx-auto text-gray-700 leading-relaxed content">
 
-      <div class="flex flex-wrap gap-3 justify-center mb-8">
+      <div class="section-nav flex flex-wrap gap-3 justify-center mb-8">
         <a class="px-4 py-2 rounded-xl bg-white border border-gray-200 shadow-sm font-semibold text-[#003466] hover:text-[#007c9e]" href="#why-us">Why Us</a>
         <a class="px-4 py-2 rounded-xl bg-white border border-gray-200 shadow-sm font-semibold text-[#003466] hover:text-[#007c9e]" href="#about">Meet Heather &amp; Todd</a>
         <a class="px-4 py-2 rounded-xl bg-white border border-gray-200 shadow-sm font-semibold text-[#003466] hover:text-[#007c9e]" href="/about">About 843 Teez</a>
@@ -785,53 +812,53 @@
           Real reviews from customers across Conway, Myrtle Beach, and the Grand Strand.
         </p>
 
-        <div class="reviews-marquee" role="region" aria-label="Customer reviews" tabindex="0">
+        <div class="reviews-marquee">
           <div class="reviews-track">
             <div class="reviews-set">
-              <article class="review-card" tabindex="0">
-                <p class="review-stars" aria-label="5 out of 5 stars"><span aria-hidden="true">★★★★★</span></p>
+              <article class="review-card">
+                <p class="review-stars"><span aria-hidden="true">★★★★★</span><span class="sr-only">5 out of 5 stars</span></p>
                 <p class="reviewer-name">Nicole Herrera</p>
                 <p class="review-meta"><span>2 weeks ago</span></p>
                 <p class="review-quote">“Todd &amp; Heather are absolutely AMAZING!!! So incredible to work with and fabulous customer service.”</p>
               </article>
 
-              <article class="review-card" tabindex="0">
-                <p class="review-stars" aria-label="5 out of 5 stars"><span aria-hidden="true">★★★★★</span></p>
+              <article class="review-card">
+                <p class="review-stars"><span aria-hidden="true">★★★★★</span><span class="sr-only">5 out of 5 stars</span></p>
                 <p class="reviewer-name">Sloan Huggins</p>
                 <p class="review-meta"><span class="local-guide">Local Guide</span><span>a month ago</span></p>
                 <p class="review-quote">“Absolutely love the shirts we received from 843Teez!! The communication was on point! They helped us design a beautiful shirt for our company and the prices are unbeatable! We will definitely be repeat customers!!”</p>
               </article>
 
-              <article class="review-card" tabindex="0">
-                <p class="review-stars" aria-label="5 out of 5 stars"><span aria-hidden="true">★★★★★</span></p>
+              <article class="review-card">
+                <p class="review-stars"><span aria-hidden="true">★★★★★</span><span class="sr-only">5 out of 5 stars</span></p>
                 <p class="reviewer-name">Kayci and Justin (DAX)</p>
                 <p class="review-meta"><span>3 months ago</span></p>
                 <p class="review-quote">“We’ve purchased t-shirts 2 times now for our business and both times they’ve been exceptional quality, amazing customer service and just all around a great experience.”</p>
               </article>
 
-              <article class="review-card" tabindex="0">
-                <p class="review-stars" aria-label="5 out of 5 stars"><span aria-hidden="true">★★★★★</span></p>
+              <article class="review-card">
+                <p class="review-stars"><span aria-hidden="true">★★★★★</span><span class="sr-only">5 out of 5 stars</span></p>
                 <p class="reviewer-name">Terry Baker</p>
                 <p class="review-meta"><span class="local-guide">Local Guide</span><span>3 months ago</span></p>
                 <p class="review-quote">“These guys are awesome. Todd and company are the best in the business!!”</p>
               </article>
 
-              <article class="review-card" tabindex="0">
-                <p class="review-stars" aria-label="5 out of 5 stars"><span aria-hidden="true">★★★★★</span></p>
+              <article class="review-card">
+                <p class="review-stars"><span aria-hidden="true">★★★★★</span><span class="sr-only">5 out of 5 stars</span></p>
                 <p class="reviewer-name">Gary Lefevre</p>
                 <p class="review-meta"><span class="local-guide">Local Guide</span><span>4 months ago</span></p>
                 <p class="review-quote">“I ordered quite a few t-shirts for my business. They were perfect - exactly what they said and on-time! Great people to deal with - great communication.”</p>
               </article>
 
-              <article class="review-card" tabindex="0">
-                <p class="review-stars" aria-label="5 out of 5 stars"><span aria-hidden="true">★★★★★</span></p>
+              <article class="review-card">
+                <p class="review-stars"><span aria-hidden="true">★★★★★</span><span class="sr-only">5 out of 5 stars</span></p>
                 <p class="reviewer-name">Matthew Crossman</p>
                 <p class="review-meta"><span>4 months ago</span></p>
                 <p class="review-quote">“Purchased from Out of State. Quick and Friendly service. Great quality shirts.”</p>
               </article>
 
-              <article class="review-card" tabindex="0">
-                <p class="review-stars" aria-label="5 out of 5 stars"><span aria-hidden="true">★★★★★</span></p>
+              <article class="review-card">
+                <p class="review-stars"><span aria-hidden="true">★★★★★</span><span class="sr-only">5 out of 5 stars</span></p>
                 <p class="reviewer-name">Todd Singleton</p>
                 <p class="review-meta"><span class="local-guide">Local Guide</span><span>9 months ago</span></p>
                 <p class="review-quote">“Great quality and fast shipping... Great people, and that is the kind of company you want to deal with again!”</p>
@@ -1059,7 +1086,7 @@
 
         <div class="mt-6 text-center">
           <p class="text-sm text-gray-600">Follow us:</p>
-          <div class="flex justify-center gap-4 mt-3">
+          <div class="social-links flex justify-center gap-4 mt-3">
             <a href="https://www.facebook.com/843teez" target="_blank" rel="noopener"
                class="px-4 py-2 rounded-xl bg-white border border-gray-200 shadow-sm font-semibold text-[#003466] hover:text-[#007c9e]">
               Facebook
@@ -1074,7 +1101,7 @@
 
     </main>
 
-    <footer class="text-center mt-12 pt-6 border-t border-gray-200 text-[#003466] text-xs font-semibold space-y-1 cv-auto">
+    <footer class="site-footer text-center mt-12 pt-6 border-t border-gray-200 text-[#003466] text-xs font-semibold space-y-1 cv-auto">
       <p>843 Teez™ is a <a href="http://grizzbuilt.com" target="_blank" rel="noopener" class="text-[#007c9e] hover:underline">GrizzBuilt™</a> brand.</p>
       <p>Woman & veteran-owned local apparel.</p>
       <p>&copy; 2026 843 Teez™. All rights reserved. Made in Conway, SC.</p>
