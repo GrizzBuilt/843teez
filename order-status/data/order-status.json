@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-17T11:00:01.628Z",
-  "count": 5,
+  "generatedAt": "2026-07-17T11:30:01.633Z",
+  "count": 6,
   "completedCount": 10,
   "orders": [
     {
@@ -41,6 +41,14 @@
       "status": "Order Received",
       "createdAt": "2026-07-15 16:14:52",
       "updatedAt": "2026-07-15 16:14:52",
+      "completedAt": null
+    },
+    {
+      "orderNumber": "843-2026-0078",
+      "customer": "M.Scott",
+      "status": "Order Received",
+      "createdAt": "2026-07-17 11:05:29",
+      "updatedAt": "2026-07-17 11:05:29",
       "completedAt": null
     }
   ],
