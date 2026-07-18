@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T10:00:01.627Z",
+  "generatedAt": "2026-07-18T10:30:01.631Z",
   "count": 6,
   "completedCount": 10,
   "orders": [
@@ -30,9 +30,9 @@
     {
       "orderNumber": "843-2026-0076",
       "customer": "Horry County Parks and Rec - Power of Parks",
-      "status": "Order Received",
+      "status": "In Queue",
       "createdAt": "2026-07-13 20:59:23",
-      "updatedAt": "2026-07-17 00:53:22",
+      "updatedAt": "2026-07-18 10:18:50",
       "completedAt": null
     },
     {
@@ -40,7 +40,7 @@
       "customer": "Sloan's Sweets",
       "status": "Order Received",
       "createdAt": "2026-07-15 16:14:52",
-      "updatedAt": "2026-07-15 16:14:52",
+      "updatedAt": "2026-07-18 10:20:01",
       "completedAt": null
     },
     {
