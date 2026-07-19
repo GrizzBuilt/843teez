@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T19:00:01.637Z",
+  "generatedAt": "2026-07-19T19:30:01.618Z",
   "count": 7,
   "completedCount": 10,
   "orders": [
@@ -22,9 +22,9 @@
     {
       "orderNumber": "843-2026-0075",
       "customer": "Cash Camp",
-      "status": "In Production",
+      "status": "Ready for Pickup",
       "createdAt": "2026-07-08 17:16:32",
-      "updatedAt": "2026-07-18 11:37:46",
+      "updatedAt": "2026-07-19 19:01:46",
       "completedAt": null
     },
     {
