@@ -1,16 +1,8 @@
 {
-  "generatedAt": "2026-07-20T23:00:01.642Z",
-  "count": 8,
+  "generatedAt": "2026-07-20T23:30:01.611Z",
+  "count": 7,
   "completedCount": 10,
   "orders": [
-    {
-      "orderNumber": "843-2026-0073",
-      "customer": "Homewell Care Servies",
-      "status": "Ready for Pickup",
-      "createdAt": "2026-07-06 16:39:21",
-      "updatedAt": "2026-07-18 11:37:29",
-      "completedAt": null
-    },
     {
       "orderNumber": "843-2026-0074",
       "customer": "Mean Clean MB",
@@ -40,7 +32,7 @@
       "customer": "Sloan's Sweets",
       "status": "Order Received",
       "createdAt": "2026-07-15 16:14:52",
-      "updatedAt": "2026-07-18 10:20:01",
+      "updatedAt": "2026-07-20 23:24:02",
       "completedAt": null
     },
     {
@@ -48,7 +40,7 @@
       "customer": "M.Scott",
       "status": "Order Received",
       "createdAt": "2026-07-17 11:05:29",
-      "updatedAt": "2026-07-17 11:05:29",
+      "updatedAt": "2026-07-20 23:24:04",
       "completedAt": null
     },
     {
@@ -56,7 +48,7 @@
       "customer": "K. Gomez",
       "status": "Order Received",
       "createdAt": "2026-07-18 15:53:16",
-      "updatedAt": "2026-07-18 15:53:16",
+      "updatedAt": "2026-07-20 23:24:05",
       "completedAt": null
     },
     {
@@ -64,11 +56,19 @@
       "customer": "Baker Equipment Worx",
       "status": "Order Received",
       "createdAt": "2026-07-19 20:47:06",
-      "updatedAt": "2026-07-19 20:47:06",
+      "updatedAt": "2026-07-20 23:24:07",
       "completedAt": null
     }
   ],
   "recentlyCompleted": [
+    {
+      "orderNumber": "843-2026-0073",
+      "customer": "Homewell Care Servies",
+      "status": "Completed",
+      "createdAt": "2026-07-06 16:39:21",
+      "updatedAt": "2026-07-20 23:22:50",
+      "completedAt": "2026-07-20T23:22:50.977Z"
+    },
     {
       "orderNumber": "843-2026-0068",
       "customer": "Conway Architectural Salvage and Heritage Project",
@@ -140,14 +140,6 @@
       "createdAt": "2026-05-22 21:58:14",
       "updatedAt": "2026-06-21 15:49:16",
       "completedAt": "2026-06-21T15:49:16.247Z"
-    },
-    {
-      "orderNumber": "843-2026-0064",
-      "customer": "HCPR Summer Camp & CounselorTeez",
-      "status": "Completed",
-      "createdAt": "2026-06-05 11:11:54",
-      "updatedAt": "2026-06-15 12:52:16",
-      "completedAt": "2026-06-15T12:52:16.756Z"
     }
   ]
 }
