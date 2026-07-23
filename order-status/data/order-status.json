@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T18:00:01.630Z",
+  "generatedAt": "2026-07-23T18:30:01.624Z",
   "count": 6,
   "completedCount": 10,
   "orders": [
@@ -8,15 +8,15 @@
       "customer": "Mean Clean MB",
       "status": "In Production",
       "createdAt": "2026-07-07 17:45:11",
-      "updatedAt": "2026-07-18 11:37:42",
+      "updatedAt": "2026-07-23 18:16:27",
       "completedAt": null
     },
     {
       "orderNumber": "843-2026-0076",
       "customer": "Horry County Parks and Rec - Power of Parks",
-      "status": "In Queue",
+      "status": "In Production",
       "createdAt": "2026-07-13 20:59:23",
-      "updatedAt": "2026-07-18 10:18:50",
+      "updatedAt": "2026-07-23 18:16:49",
       "completedAt": null
     },
     {
