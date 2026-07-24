@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T16:00:01.647Z",
+  "generatedAt": "2026-07-24T16:30:01.383Z",
   "count": 6,
   "completedCount": 10,
   "orders": [
@@ -22,33 +22,33 @@
     {
       "orderNumber": "843-2026-0077",
       "customer": "Sloan's Sweets",
-      "status": "Order Received",
+      "status": "In Queue",
       "createdAt": "2026-07-15 16:14:52",
-      "updatedAt": "2026-07-20 23:24:02",
+      "updatedAt": "2026-07-24 16:16:21",
       "completedAt": null
     },
     {
       "orderNumber": "843-2026-0078",
       "customer": "M.Scott",
-      "status": "Order Received",
+      "status": "In Queue",
       "createdAt": "2026-07-17 11:05:29",
-      "updatedAt": "2026-07-20 23:24:04",
+      "updatedAt": "2026-07-24 16:16:23",
       "completedAt": null
     },
     {
       "orderNumber": "843-2026-0079",
       "customer": "K. Gomez",
-      "status": "Order Received",
+      "status": "In Queue",
       "createdAt": "2026-07-18 15:53:16",
-      "updatedAt": "2026-07-20 23:24:05",
+      "updatedAt": "2026-07-24 16:16:27",
       "completedAt": null
     },
     {
       "orderNumber": "843-2026-0080",
       "customer": "Baker Equipment Worx",
-      "status": "Order Received",
+      "status": "In Queue",
       "createdAt": "2026-07-19 20:47:06",
-      "updatedAt": "2026-07-20 23:24:07",
+      "updatedAt": "2026-07-24 16:16:29",
       "completedAt": null
     }
   ],
