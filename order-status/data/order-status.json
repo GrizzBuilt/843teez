@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T12:00:01.645Z",
+  "generatedAt": "2026-07-26T12:30:01.645Z",
   "count": 5,
   "completedCount": 10,
   "orders": [
@@ -30,17 +30,17 @@
     {
       "orderNumber": "843-2026-0079",
       "customer": "K. Gomez",
-      "status": "In Queue",
+      "status": "Order Received",
       "createdAt": "2026-07-18 15:53:16",
-      "updatedAt": "2026-07-24 16:16:27",
+      "updatedAt": "2026-07-26 12:06:27",
       "completedAt": null
     },
     {
       "orderNumber": "843-2026-0080",
       "customer": "Baker Equipment Worx",
-      "status": "In Queue",
+      "status": "Order Received",
       "createdAt": "2026-07-19 20:47:06",
-      "updatedAt": "2026-07-24 16:16:29",
+      "updatedAt": "2026-07-26 12:06:24",
       "completedAt": null
     }
   ],
