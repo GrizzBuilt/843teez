@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T23:00:01.655Z",
+  "generatedAt": "2026-07-27T23:30:01.656Z",
   "count": 5,
   "completedCount": 10,
   "orders": [
@@ -38,9 +38,9 @@
     {
       "orderNumber": "843-2026-0080",
       "customer": "Baker Equipment Worx",
-      "status": "In Production",
+      "status": "Ready for Pickup",
       "createdAt": "2026-07-19 20:47:06",
-      "updatedAt": "2026-07-27 22:33:25",
+      "updatedAt": "2026-07-27 23:30:00",
       "completedAt": null
     }
   ],
