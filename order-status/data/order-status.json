@@ -1,16 +1,8 @@
 {
-  "generatedAt": "2026-07-27T23:30:01.656Z",
-  "count": 5,
+  "generatedAt": "2026-07-28T00:00:01.650Z",
+  "count": 4,
   "completedCount": 10,
   "orders": [
-    {
-      "orderNumber": "843-2026-0076",
-      "customer": "Horry County Parks and Rec - Power of Parks",
-      "status": "Ready for Pickup",
-      "createdAt": "2026-07-13 20:59:23",
-      "updatedAt": "2026-07-26 18:21:28",
-      "completedAt": null
-    },
     {
       "orderNumber": "843-2026-0077",
       "customer": "Sloan's Sweets",
@@ -45,6 +37,14 @@
     }
   ],
   "recentlyCompleted": [
+    {
+      "orderNumber": "843-2026-0076",
+      "customer": "Horry County Parks and Rec - Power of Parks",
+      "status": "Completed",
+      "createdAt": "2026-07-13 20:59:23",
+      "updatedAt": "2026-07-27 23:36:45",
+      "completedAt": "2026-07-27T23:36:45.615Z"
+    },
     {
       "orderNumber": "843-2026-0074",
       "customer": "Mean Clean MB",
@@ -116,14 +116,6 @@
       "createdAt": "2026-06-30 13:16:12",
       "updatedAt": "2026-07-01 15:41:19",
       "completedAt": "2026-07-01T15:41:19.080Z"
-    },
-    {
-      "orderNumber": "843-2026-0066",
-      "customer": "K. Gomes",
-      "status": "Completed",
-      "createdAt": "2026-06-12 13:25:39",
-      "updatedAt": "2026-06-22 20:54:50",
-      "completedAt": "2026-06-22T20:54:50.566Z"
     }
   ]
 }
