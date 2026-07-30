@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-30T10:00:01.696Z",
-  "count": 4,
+  "generatedAt": "2026-07-30T10:30:01.614Z",
+  "count": 2,
   "completedCount": 10,
   "orders": [
     {
@@ -12,31 +12,31 @@
       "completedAt": null
     },
     {
-      "orderNumber": "843-2026-0078",
-      "customer": "M.Scott",
-      "status": "Ready for Pickup",
-      "createdAt": "2026-07-17 11:05:29",
-      "updatedAt": "2026-07-27 22:33:16",
-      "completedAt": null
-    },
-    {
       "orderNumber": "843-2026-0079",
       "customer": "K. Gomez",
       "status": "In Production",
       "createdAt": "2026-07-18 15:53:16",
       "updatedAt": "2026-07-27 22:33:39",
       "completedAt": null
-    },
-    {
-      "orderNumber": "843-2026-0080",
-      "customer": "Baker Equipment Worx",
-      "status": "Ready for Pickup",
-      "createdAt": "2026-07-19 20:47:06",
-      "updatedAt": "2026-07-27 23:30:00",
-      "completedAt": null
     }
   ],
   "recentlyCompleted": [
+    {
+      "orderNumber": "843-2026-0080",
+      "customer": "Baker Equipment Worx",
+      "status": "Completed",
+      "createdAt": "2026-07-19 20:47:06",
+      "updatedAt": "2026-07-30 10:11:32",
+      "completedAt": "2026-07-30T10:11:32.593Z"
+    },
+    {
+      "orderNumber": "843-2026-0078",
+      "customer": "M.Scott",
+      "status": "Completed",
+      "createdAt": "2026-07-17 11:05:29",
+      "updatedAt": "2026-07-30 10:11:31",
+      "completedAt": "2026-07-30T10:11:31.675Z"
+    },
     {
       "orderNumber": "843-2026-0076",
       "customer": "Horry County Parks and Rec - Power of Parks",
@@ -100,22 +100,6 @@
       "createdAt": "2026-06-19 11:13:21",
       "updatedAt": "2026-07-03 22:13:58",
       "completedAt": "2026-07-03T22:13:58.258Z"
-    },
-    {
-      "orderNumber": "843-2026-0070",
-      "customer": "N.Barnes",
-      "status": "Completed",
-      "createdAt": "2026-06-28 22:49:03",
-      "updatedAt": "2026-07-01 22:57:14",
-      "completedAt": "2026-07-01T22:57:14.693Z"
-    },
-    {
-      "orderNumber": "843-2026-0072",
-      "customer": "S.Fischett",
-      "status": "Completed",
-      "createdAt": "2026-06-30 13:16:12",
-      "updatedAt": "2026-07-01 15:41:19",
-      "completedAt": "2026-07-01T15:41:19.080Z"
     }
   ]
 }
