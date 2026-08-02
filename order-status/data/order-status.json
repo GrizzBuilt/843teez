@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-02T18:00:01.624Z",
+  "generatedAt": "2026-08-02T18:30:01.638Z",
   "count": 2,
   "completedCount": 10,
   "orders": [
     {
       "orderNumber": "843-2026-0077",
       "customer": "Sloan's Sweets",
-      "status": "In Production",
+      "status": "Ready for Pickup",
       "createdAt": "2026-07-15 16:14:52",
-      "updatedAt": "2026-07-27 22:33:38",
+      "updatedAt": "2026-08-02 18:17:33",
       "completedAt": null
     },
     {
