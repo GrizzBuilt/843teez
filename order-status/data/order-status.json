@@ -1,26 +1,25 @@
 {
-  "generatedAt": "2026-08-03T12:00:01.651Z",
-  "count": 2,
+  "generatedAt": "2026-08-03T12:30:01.636Z",
+  "count": 0,
   "completedCount": 10,
-  "orders": [
+  "orders": [],
+  "recentlyCompleted": [
     {
       "orderNumber": "843-2026-0077",
       "customer": "Sloan's Sweets",
-      "status": "Ready for Pickup",
+      "status": "Completed",
       "createdAt": "2026-07-15 16:14:52",
-      "updatedAt": "2026-08-02 18:17:33",
-      "completedAt": null
+      "updatedAt": "2026-08-03 12:05:59",
+      "completedAt": "2026-08-03T12:05:59.577Z"
     },
     {
       "orderNumber": "843-2026-0079",
       "customer": "K. Gomez",
-      "status": "Ready for Pickup",
+      "status": "Completed",
       "createdAt": "2026-07-18 15:53:16",
-      "updatedAt": "2026-08-01 12:25:52",
-      "completedAt": null
-    }
-  ],
-  "recentlyCompleted": [
+      "updatedAt": "2026-08-03 12:05:58",
+      "completedAt": "2026-08-03T12:05:58.577Z"
+    },
     {
       "orderNumber": "843-2026-0080",
       "customer": "Baker Equipment Worx",
@@ -84,22 +83,6 @@
       "createdAt": "2026-06-05 11:18:16",
       "updatedAt": "2026-07-04 10:54:22",
       "completedAt": "2026-07-04T10:54:22.737Z"
-    },
-    {
-      "orderNumber": "843-2026-0071",
-      "customer": "Fizzy Sips",
-      "status": "Completed",
-      "createdAt": "2026-06-30 00:42:20",
-      "updatedAt": "2026-07-03 22:14:00",
-      "completedAt": "2026-07-03T22:14:00.143Z"
-    },
-    {
-      "orderNumber": "843-2026-0069",
-      "customer": "Legends Painting",
-      "status": "Completed",
-      "createdAt": "2026-06-19 11:13:21",
-      "updatedAt": "2026-07-03 22:13:58",
-      "completedAt": "2026-07-03T22:13:58.258Z"
     }
   ]
 }
