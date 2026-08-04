@@ -1,8 +1,17 @@
 {
-  "generatedAt": "2026-08-04T11:00:01.635Z",
-  "count": 0,
+  "generatedAt": "2026-08-04T11:30:01.652Z",
+  "count": 1,
   "completedCount": 10,
-  "orders": [],
+  "orders": [
+    {
+      "orderNumber": "843-2026-0081",
+      "customer": "K. Gomes",
+      "status": "Order Received",
+      "createdAt": "2026-08-04 11:08:21",
+      "updatedAt": "2026-08-04 11:08:21",
+      "completedAt": null
+    }
+  ],
   "recentlyCompleted": [
     {
       "orderNumber": "843-2026-0077",
