@@ -1,22 +1,14 @@
 {
-  "generatedAt": "2026-08-13T20:32:59.234Z",
-  "count": 3,
+  "generatedAt": "2026-08-13T21:00:01.658Z",
+  "count": 4,
   "completedCount": 10,
   "orders": [
     {
       "orderNumber": "843-2026-0081",
       "customer": "K. Gomes",
-      "status": "In Production",
-      "createdAt": "2026-08-04 11:08:21",
-      "updatedAt": "2026-08-09 17:23:18",
-      "completedAt": null
-    },
-    {
-      "orderNumber": "843-2026-0082",
-      "customer": "Acacia Endeavors",
       "status": "Ready for Pickup",
-      "createdAt": "2026-08-04 16:31:05",
-      "updatedAt": "2026-08-07 22:26:59",
+      "createdAt": "2026-08-04 11:08:21",
+      "updatedAt": "2026-08-13 20:45:24",
       "completedAt": null
     },
     {
@@ -24,11 +16,35 @@
       "customer": "Cristie V.",
       "status": "Order Received",
       "createdAt": "2026-08-10 16:01:36",
-      "updatedAt": "2026-08-10 16:01:36",
+      "updatedAt": "2026-08-13 20:35:47",
+      "completedAt": null
+    },
+    {
+      "orderNumber": "843-2026-0084",
+      "customer": "Beach Janitorial Svcs",
+      "status": "Order Received",
+      "createdAt": "2026-08-13 20:35:42",
+      "updatedAt": "2026-08-13 20:35:42",
+      "completedAt": null
+    },
+    {
+      "orderNumber": "843-2026-0085",
+      "customer": "Lefevre Bikes",
+      "status": "Order Received",
+      "createdAt": "2026-08-13 20:36:28",
+      "updatedAt": "2026-08-13 20:36:28",
       "completedAt": null
     }
   ],
   "recentlyCompleted": [
+    {
+      "orderNumber": "843-2026-0082",
+      "customer": "Acacia Endeavors",
+      "status": "Completed",
+      "createdAt": "2026-08-04 16:31:05",
+      "updatedAt": "2026-08-13 20:45:29",
+      "completedAt": "2026-08-13T20:45:29.666Z"
+    },
     {
       "orderNumber": "843-2026-0077",
       "customer": "Sloan's Sweets",
@@ -100,14 +116,6 @@
       "createdAt": "2026-06-16 20:52:12",
       "updatedAt": "2026-07-06 20:04:49",
       "completedAt": "2026-07-06T20:04:49.492Z"
-    },
-    {
-      "orderNumber": "843-2026-0065",
-      "customer": "Adams MMA - Samples",
-      "status": "Completed",
-      "createdAt": "2026-06-05 11:18:16",
-      "updatedAt": "2026-07-04 10:54:22",
-      "completedAt": "2026-07-04T10:54:22.737Z"
     }
   ]
 }
