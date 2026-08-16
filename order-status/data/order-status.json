@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-16T08:30:01.619Z",
-  "count": 4,
+  "generatedAt": "2026-08-16T09:00:01.624Z",
+  "count": 6,
   "completedCount": 10,
   "orders": [
     {
@@ -33,6 +33,22 @@
       "status": "Order Received",
       "createdAt": "2026-08-13 20:36:28",
       "updatedAt": "2026-08-13 20:36:28",
+      "completedAt": null
+    },
+    {
+      "orderNumber": "843-2026-0086",
+      "customer": "S.Bostic",
+      "status": "Order Received",
+      "createdAt": "2026-08-16 08:30:03",
+      "updatedAt": "2026-08-16 08:30:03",
+      "completedAt": null
+    },
+    {
+      "orderNumber": "843-2026-0087",
+      "customer": "K Gomez",
+      "status": "Order Received",
+      "createdAt": "2026-08-16 08:52:31",
+      "updatedAt": "2026-08-16 08:52:31",
       "completedAt": null
     }
   ],
