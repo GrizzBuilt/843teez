@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T17:00:01.628Z",
+  "generatedAt": "2026-08-16T17:30:01.643Z",
   "count": 5,
   "completedCount": 10,
   "orders": [
@@ -38,9 +38,9 @@
     {
       "orderNumber": "843-2026-0087",
       "customer": "K Gomez",
-      "status": "Order Received",
+      "status": "In Production",
       "createdAt": "2026-08-16 08:52:31",
-      "updatedAt": "2026-08-16 08:52:31",
+      "updatedAt": "2026-08-16 17:22:07",
       "completedAt": null
     }
   ],
