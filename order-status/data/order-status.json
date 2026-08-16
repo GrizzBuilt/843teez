@@ -1,16 +1,8 @@
 {
-  "generatedAt": "2026-08-16T09:00:01.624Z",
-  "count": 6,
+  "generatedAt": "2026-08-16T09:30:01.647Z",
+  "count": 5,
   "completedCount": 10,
   "orders": [
-    {
-      "orderNumber": "843-2026-0081",
-      "customer": "K. Gomes",
-      "status": "Ready for Pickup",
-      "createdAt": "2026-08-04 11:08:21",
-      "updatedAt": "2026-08-13 20:45:24",
-      "completedAt": null
-    },
     {
       "orderNumber": "843-2026-0083",
       "customer": "Cristie V.",
@@ -53,6 +45,14 @@
     }
   ],
   "recentlyCompleted": [
+    {
+      "orderNumber": "843-2026-0081",
+      "customer": "K. Gomes",
+      "status": "Completed",
+      "createdAt": "2026-08-04 11:08:21",
+      "updatedAt": "2026-08-16 09:03:52",
+      "completedAt": "2026-08-16T09:03:52.216Z"
+    },
     {
       "orderNumber": "843-2026-0082",
       "customer": "Acacia Endeavors",
@@ -124,14 +124,6 @@
       "createdAt": "2026-07-06 16:39:21",
       "updatedAt": "2026-07-20 23:22:50",
       "completedAt": "2026-07-20T23:22:50.977Z"
-    },
-    {
-      "orderNumber": "843-2026-0068",
-      "customer": "Conway Architectural Salvage and Heritage Project",
-      "status": "Completed",
-      "createdAt": "2026-06-16 20:52:12",
-      "updatedAt": "2026-07-06 20:04:49",
-      "completedAt": "2026-07-06T20:04:49.492Z"
     }
   ]
 }
