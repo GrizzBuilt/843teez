@@ -1,30 +1,30 @@
 {
-  "generatedAt": "2026-08-17T10:30:01.622Z",
+  "generatedAt": "2026-08-17T11:00:01.620Z",
   "count": 5,
   "completedCount": 10,
   "orders": [
     {
       "orderNumber": "843-2026-0083",
       "customer": "Cristie V.",
-      "status": "Order Received",
+      "status": "In Queue",
       "createdAt": "2026-08-10 16:01:36",
-      "updatedAt": "2026-08-13 20:35:47",
+      "updatedAt": "2026-08-17 10:58:21",
       "completedAt": null
     },
     {
       "orderNumber": "843-2026-0084",
       "customer": "Beach Janitorial Svcs",
-      "status": "Order Received",
+      "status": "In Queue",
       "createdAt": "2026-08-13 20:35:42",
-      "updatedAt": "2026-08-13 20:35:42",
+      "updatedAt": "2026-08-17 10:58:18",
       "completedAt": null
     },
     {
       "orderNumber": "843-2026-0085",
       "customer": "Lefevre Bikes",
-      "status": "Order Received",
+      "status": "In Queue",
       "createdAt": "2026-08-13 20:36:28",
-      "updatedAt": "2026-08-13 20:36:28",
+      "updatedAt": "2026-08-17 10:58:23",
       "completedAt": null
     },
     {
@@ -32,15 +32,15 @@
       "customer": "S.Bostic",
       "status": "Order Received",
       "createdAt": "2026-08-16 08:30:03",
-      "updatedAt": "2026-08-16 08:30:03",
+      "updatedAt": "2026-08-17 10:58:12",
       "completedAt": null
     },
     {
       "orderNumber": "843-2026-0087",
       "customer": "K Gomez",
-      "status": "In Production",
+      "status": "Ready for Pickup",
       "createdAt": "2026-08-16 08:52:31",
-      "updatedAt": "2026-08-16 17:22:07",
+      "updatedAt": "2026-08-17 10:57:36",
       "completedAt": null
     }
   ],
