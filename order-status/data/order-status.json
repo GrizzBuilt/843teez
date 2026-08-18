@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-18T22:00:01.802Z",
-  "count": 5,
+  "generatedAt": "2026-08-18T22:21:36.046Z",
+  "count": 4,
   "completedCount": 10,
   "orders": [
     {
@@ -8,7 +8,7 @@
       "customer": "Cristie V.",
       "status": "In Queue",
       "createdAt": "2026-08-10 16:01:36",
-      "updatedAt": "2026-08-17 10:58:21",
+      "updatedAt": "2026-08-18 22:03:07",
       "completedAt": null
     },
     {
@@ -16,15 +16,15 @@
       "customer": "Beach Janitorial Svcs",
       "status": "In Queue",
       "createdAt": "2026-08-13 20:35:42",
-      "updatedAt": "2026-08-17 10:58:18",
+      "updatedAt": "2026-08-18 22:03:08",
       "completedAt": null
     },
     {
       "orderNumber": "843-2026-0085",
       "customer": "Lefevre Bikes",
-      "status": "In Queue",
+      "status": "In Production",
       "createdAt": "2026-08-13 20:36:28",
-      "updatedAt": "2026-08-17 10:58:23",
+      "updatedAt": "2026-08-18 22:04:12",
       "completedAt": null
     },
     {
@@ -34,17 +34,17 @@
       "createdAt": "2026-08-16 08:30:03",
       "updatedAt": "2026-08-17 10:58:12",
       "completedAt": null
-    },
-    {
-      "orderNumber": "843-2026-0087",
-      "customer": "K Gomez",
-      "status": "Ready for Pickup",
-      "createdAt": "2026-08-16 08:52:31",
-      "updatedAt": "2026-08-17 10:57:36",
-      "completedAt": null
     }
   ],
   "recentlyCompleted": [
+    {
+      "orderNumber": "843-2026-0087",
+      "customer": "K Gomez",
+      "status": "Completed",
+      "createdAt": "2026-08-16 08:52:31",
+      "updatedAt": "2026-08-18 22:02:49",
+      "completedAt": "2026-08-18T22:02:49.861Z"
+    },
     {
       "orderNumber": "843-2026-0081",
       "customer": "K. Gomes",
@@ -116,14 +116,6 @@
       "createdAt": "2026-07-08 17:16:32",
       "updatedAt": "2026-07-21 18:23:16",
       "completedAt": "2026-07-21T18:23:15.986Z"
-    },
-    {
-      "orderNumber": "843-2026-0073",
-      "customer": "Homewell Care Servies",
-      "status": "Completed",
-      "createdAt": "2026-07-06 16:39:21",
-      "updatedAt": "2026-07-20 23:22:50",
-      "completedAt": "2026-07-20T23:22:50.977Z"
     }
   ]
 }
