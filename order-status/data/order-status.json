@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-21T12:30:01.618Z",
-  "count": 5,
+  "generatedAt": "2026-08-21T12:51:36.050Z",
+  "count": 6,
   "completedCount": 10,
   "orders": [
     {
@@ -41,6 +41,14 @@
       "status": "Order Received",
       "createdAt": "2026-08-19 13:05:17",
       "updatedAt": "2026-08-19 13:05:17",
+      "completedAt": null
+    },
+    {
+      "orderNumber": "843-2026-0089",
+      "customer": "Pettitt Construction",
+      "status": "Order Received",
+      "createdAt": "2026-08-21 12:44:53",
+      "updatedAt": "2026-08-21 12:44:53",
       "completedAt": null
     }
   ],
