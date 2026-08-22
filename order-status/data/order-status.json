@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-08-22T00:00:01.634Z",
+  "generatedAt": "2026-08-22T00:21:36.054Z",
   "count": 6,
   "completedCount": 10,
   "orders": [
     {
       "orderNumber": "843-2026-0083",
       "customer": "Cristie V.",
-      "status": "In Queue",
+      "status": "In Production",
       "createdAt": "2026-08-10 16:01:36",
-      "updatedAt": "2026-08-18 22:03:07",
+      "updatedAt": "2026-08-22 00:01:43",
       "completedAt": null
     },
     {
       "orderNumber": "843-2026-0084",
       "customer": "Beach Janitorial Svcs",
-      "status": "In Queue",
+      "status": "In Production",
       "createdAt": "2026-08-13 20:35:42",
-      "updatedAt": "2026-08-18 22:03:08",
+      "updatedAt": "2026-08-22 00:01:45",
       "completedAt": null
     },
     {
@@ -24,7 +24,7 @@
       "customer": "Lefevre Bikes",
       "status": "In Production",
       "createdAt": "2026-08-13 20:36:28",
-      "updatedAt": "2026-08-18 22:04:12",
+      "updatedAt": "2026-08-22 00:01:40",
       "completedAt": null
     },
     {
