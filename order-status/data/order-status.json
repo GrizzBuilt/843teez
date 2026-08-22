@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-22T12:30:01.625Z",
-  "count": 6,
+  "generatedAt": "2026-08-22T12:51:36.053Z",
+  "count": 7,
   "completedCount": 10,
   "orders": [
     {
@@ -49,6 +49,14 @@
       "status": "Order Received",
       "createdAt": "2026-08-21 12:44:53",
       "updatedAt": "2026-08-21 12:44:53",
+      "completedAt": null
+    },
+    {
+      "orderNumber": "843-2026-0090",
+      "customer": "Old Man and a Tractor",
+      "status": "Order Received",
+      "createdAt": "2026-08-22 12:39:26",
+      "updatedAt": "2026-08-22 12:39:26",
       "completedAt": null
     }
   ],
