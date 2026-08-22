@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T15:30:01.621Z",
+  "generatedAt": "2026-08-22T15:51:36.033Z",
   "count": 7,
   "completedCount": 10,
   "orders": [
@@ -22,9 +22,9 @@
     {
       "orderNumber": "843-2026-0085",
       "customer": "Lefevre Bikes",
-      "status": "In Production",
+      "status": "Ready for Pickup",
       "createdAt": "2026-08-13 20:36:28",
-      "updatedAt": "2026-08-22 00:01:40",
+      "updatedAt": "2026-08-22 15:42:48",
       "completedAt": null
     },
     {
