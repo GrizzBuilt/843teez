@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-24T23:30:01.626Z",
-  "count": 7,
+  "generatedAt": "2026-08-24T23:51:36.049Z",
+  "count": 6,
   "completedCount": 10,
   "orders": [
     {
@@ -17,14 +17,6 @@
       "status": "In Production",
       "createdAt": "2026-08-13 20:35:42",
       "updatedAt": "2026-08-22 00:01:45",
-      "completedAt": null
-    },
-    {
-      "orderNumber": "843-2026-0085",
-      "customer": "Lefevre Bikes",
-      "status": "Ready for Pickup",
-      "createdAt": "2026-08-13 20:36:28",
-      "updatedAt": "2026-08-22 15:42:48",
       "completedAt": null
     },
     {
@@ -61,6 +53,14 @@
     }
   ],
   "recentlyCompleted": [
+    {
+      "orderNumber": "843-2026-0085",
+      "customer": "Lefevre Bikes",
+      "status": "Completed",
+      "createdAt": "2026-08-13 20:36:28",
+      "updatedAt": "2026-08-24 23:35:37",
+      "completedAt": "2026-08-24T23:35:37.892Z"
+    },
     {
       "orderNumber": "843-2026-0087",
       "customer": "K Gomez",
@@ -132,14 +132,6 @@
       "createdAt": "2026-07-07 17:45:11",
       "updatedAt": "2026-07-25 22:25:34",
       "completedAt": "2026-07-25T22:25:34.588Z"
-    },
-    {
-      "orderNumber": "843-2026-0075",
-      "customer": "Cash Camp",
-      "status": "Completed",
-      "createdAt": "2026-07-08 17:16:32",
-      "updatedAt": "2026-07-21 18:23:16",
-      "completedAt": "2026-07-21T18:23:15.986Z"
     }
   ]
 }
