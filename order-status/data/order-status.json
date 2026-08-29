@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T15:00:01.617Z",
+  "generatedAt": "2026-08-29T15:30:01.625Z",
   "count": 7,
   "completedCount": 10,
   "orders": [
@@ -22,33 +22,33 @@
     {
       "orderNumber": "843-2026-0086",
       "customer": "S.Bostic",
-      "status": "In Queue",
+      "status": "Ready for Pickup",
       "createdAt": "2026-08-16 08:30:03",
-      "updatedAt": "2026-08-28 10:47:05",
+      "updatedAt": "2026-08-29 15:13:43",
       "completedAt": null
     },
     {
       "orderNumber": "843-2026-0088",
       "customer": "D. Steen",
-      "status": "In Queue",
+      "status": "In Production",
       "createdAt": "2026-08-19 13:05:17",
-      "updatedAt": "2026-08-26 22:18:16",
+      "updatedAt": "2026-08-29 15:28:24",
       "completedAt": null
     },
     {
       "orderNumber": "843-2026-0089",
       "customer": "Pettitt Construction",
-      "status": "In Queue",
+      "status": "In Production",
       "createdAt": "2026-08-21 12:44:53",
-      "updatedAt": "2026-08-28 10:47:06",
+      "updatedAt": "2026-08-29 15:08:07",
       "completedAt": null
     },
     {
       "orderNumber": "843-2026-0090",
       "customer": "Old Man and a Tractor",
-      "status": "In Queue",
+      "status": "In Production",
       "createdAt": "2026-08-22 12:39:26",
-      "updatedAt": "2026-08-28 10:47:08",
+      "updatedAt": "2026-08-29 15:08:09",
       "completedAt": null
     },
     {
