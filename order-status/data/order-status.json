@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-08-29T16:30:01.392Z",
+  "generatedAt": "2026-08-29T17:00:01.616Z",
   "count": 7,
   "completedCount": 10,
   "orders": [
     {
       "orderNumber": "843-2026-0083",
       "customer": "Cristie V.",
-      "status": "In Production",
+      "status": "Ready for Pickup",
       "createdAt": "2026-08-10 16:01:36",
-      "updatedAt": "2026-08-29 16:28:30",
+      "updatedAt": "2026-08-29 16:36:26",
       "completedAt": null
     },
     {
