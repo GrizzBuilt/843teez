@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T15:30:01.625Z",
+  "generatedAt": "2026-08-29T16:00:01.635Z",
   "count": 7,
   "completedCount": 10,
   "orders": [
@@ -30,9 +30,9 @@
     {
       "orderNumber": "843-2026-0088",
       "customer": "D. Steen",
-      "status": "In Production",
+      "status": "Ready for Pickup",
       "createdAt": "2026-08-19 13:05:17",
-      "updatedAt": "2026-08-29 15:28:24",
+      "updatedAt": "2026-08-29 15:43:21",
       "completedAt": null
     },
     {
