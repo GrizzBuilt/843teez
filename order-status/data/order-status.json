@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-30T14:30:01.633Z",
-  "count": 7,
+  "generatedAt": "2026-08-30T15:00:01.635Z",
+  "count": 8,
   "completedCount": 10,
   "orders": [
     {
@@ -57,6 +57,14 @@
       "status": "Order Received",
       "createdAt": "2026-08-25 18:47:29",
       "updatedAt": "2026-08-26 22:17:58",
+      "completedAt": null
+    },
+    {
+      "orderNumber": "843-2026-0092",
+      "customer": "Ritter Hunting Club",
+      "status": "Order Received",
+      "createdAt": "2026-08-30 14:50:25",
+      "updatedAt": "2026-08-30 14:50:25",
       "completedAt": null
     }
   ],
