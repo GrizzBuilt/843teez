@@ -1,38 +1,14 @@
 {
-  "generatedAt": "2026-08-31T22:00:01.629Z",
-  "count": 8,
+  "generatedAt": "2026-08-31T22:30:01.634Z",
+  "count": 5,
   "completedCount": 10,
   "orders": [
-    {
-      "orderNumber": "843-2026-0083",
-      "customer": "Cristie V.",
-      "status": "Ready for Pickup",
-      "createdAt": "2026-08-10 16:01:36",
-      "updatedAt": "2026-08-29 16:36:26",
-      "completedAt": null
-    },
     {
       "orderNumber": "843-2026-0084",
       "customer": "Beach Janitorial Svcs",
       "status": "In Production",
       "createdAt": "2026-08-13 20:35:42",
       "updatedAt": "2026-08-22 00:01:45",
-      "completedAt": null
-    },
-    {
-      "orderNumber": "843-2026-0086",
-      "customer": "S.Bostic",
-      "status": "Ready for Pickup",
-      "createdAt": "2026-08-16 08:30:03",
-      "updatedAt": "2026-08-29 15:13:43",
-      "completedAt": null
-    },
-    {
-      "orderNumber": "843-2026-0088",
-      "customer": "D. Steen",
-      "status": "Ready for Pickup",
-      "createdAt": "2026-08-19 13:05:17",
-      "updatedAt": "2026-08-29 15:43:21",
       "completedAt": null
     },
     {
@@ -69,6 +45,30 @@
     }
   ],
   "recentlyCompleted": [
+    {
+      "orderNumber": "843-2026-0088",
+      "customer": "D. Steen",
+      "status": "Completed",
+      "createdAt": "2026-08-19 13:05:17",
+      "updatedAt": "2026-08-31 22:04:50",
+      "completedAt": "2026-08-31T22:04:50.372Z"
+    },
+    {
+      "orderNumber": "843-2026-0083",
+      "customer": "Cristie V.",
+      "status": "Completed",
+      "createdAt": "2026-08-10 16:01:36",
+      "updatedAt": "2026-08-31 22:04:49",
+      "completedAt": "2026-08-31T22:04:49.338Z"
+    },
+    {
+      "orderNumber": "843-2026-0086",
+      "customer": "S.Bostic",
+      "status": "Completed",
+      "createdAt": "2026-08-16 08:30:03",
+      "updatedAt": "2026-08-31 22:04:47",
+      "completedAt": "2026-08-31T22:04:47.590Z"
+    },
     {
       "orderNumber": "843-2026-0085",
       "customer": "Lefevre Bikes",
@@ -124,30 +124,6 @@
       "createdAt": "2026-07-19 20:47:06",
       "updatedAt": "2026-07-30 10:11:32",
       "completedAt": "2026-07-30T10:11:32.593Z"
-    },
-    {
-      "orderNumber": "843-2026-0078",
-      "customer": "M.Scott",
-      "status": "Completed",
-      "createdAt": "2026-07-17 11:05:29",
-      "updatedAt": "2026-07-30 10:11:31",
-      "completedAt": "2026-07-30T10:11:31.675Z"
-    },
-    {
-      "orderNumber": "843-2026-0076",
-      "customer": "Horry County Parks and Rec - Power of Parks",
-      "status": "Completed",
-      "createdAt": "2026-07-13 20:59:23",
-      "updatedAt": "2026-07-27 23:36:45",
-      "completedAt": "2026-07-27T23:36:45.615Z"
-    },
-    {
-      "orderNumber": "843-2026-0074",
-      "customer": "Mean Clean MB",
-      "status": "Completed",
-      "createdAt": "2026-07-07 17:45:11",
-      "updatedAt": "2026-07-25 22:25:34",
-      "completedAt": "2026-07-25T22:25:34.588Z"
     }
   ]
 }
