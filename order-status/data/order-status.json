@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-03T20:30:01.625Z",
-  "count": 6,
+  "generatedAt": "2026-09-03T21:00:01.642Z",
+  "count": 7,
   "completedCount": 10,
   "orders": [
     {
@@ -45,10 +45,18 @@
     },
     {
       "orderNumber": "843-2026-0093",
-      "customer": "E.Santorella",
+      "customer": "E.Santorella - Halloween SC",
       "status": "Order Received",
       "createdAt": "2026-09-03 10:53:33",
-      "updatedAt": "2026-09-03 10:53:33",
+      "updatedAt": "2026-09-03 20:54:25",
+      "completedAt": null
+    },
+    {
+      "orderNumber": "843-2026-0094",
+      "customer": "A. Brouse - Halloween SC",
+      "status": "Order Received",
+      "createdAt": "2026-09-03 20:53:59",
+      "updatedAt": "2026-09-03 20:53:59",
       "completedAt": null
     }
   ],
