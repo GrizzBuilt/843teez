@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-03T10:30:01.630Z",
-  "count": 5,
+  "generatedAt": "2026-09-03T11:00:01.618Z",
+  "count": 6,
   "completedCount": 10,
   "orders": [
     {
@@ -41,6 +41,14 @@
       "status": "Order Received",
       "createdAt": "2026-08-30 14:50:25",
       "updatedAt": "2026-08-30 14:50:25",
+      "completedAt": null
+    },
+    {
+      "orderNumber": "843-2026-0093",
+      "customer": "E.Santorella",
+      "status": "Order Received",
+      "createdAt": "2026-09-03 10:53:33",
+      "updatedAt": "2026-09-03 10:53:33",
       "completedAt": null
     }
   ],
