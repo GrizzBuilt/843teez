@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-04T15:30:01.623Z",
-  "count": 7,
+  "generatedAt": "2026-09-04T16:00:01.646Z",
+  "count": 8,
   "completedCount": 10,
   "orders": [
     {
@@ -57,6 +57,14 @@
       "status": "Order Received",
       "createdAt": "2026-09-03 20:53:59",
       "updatedAt": "2026-09-03 20:53:59",
+      "completedAt": null
+    },
+    {
+      "orderNumber": "843-2026-0095",
+      "customer": "Seymour Staffing",
+      "status": "Order Received",
+      "createdAt": "2026-09-04 15:35:22",
+      "updatedAt": "2026-09-04 15:35:22",
       "completedAt": null
     }
   ],
