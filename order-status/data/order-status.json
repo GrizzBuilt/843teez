@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T16:00:01.647Z",
+  "generatedAt": "2026-09-05T16:30:01.464Z",
   "count": 8,
   "completedCount": 10,
   "orders": [
@@ -16,15 +16,15 @@
       "customer": "Pettitt Construction",
       "status": "In Production",
       "createdAt": "2026-08-21 12:44:53",
-      "updatedAt": "2026-08-29 18:23:31",
+      "updatedAt": "2026-09-05 16:19:07",
       "completedAt": null
     },
     {
       "orderNumber": "843-2026-0090",
       "customer": "Old Man and a Tractor",
-      "status": "In Production",
+      "status": "Ready for Pickup",
       "createdAt": "2026-08-22 12:39:26",
-      "updatedAt": "2026-08-29 18:23:33",
+      "updatedAt": "2026-09-05 16:19:11",
       "completedAt": null
     },
     {
