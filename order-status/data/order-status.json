@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-06T19:00:01.639Z",
-  "count": 8,
+  "generatedAt": "2026-09-06T19:30:01.632Z",
+  "count": 7,
   "completedCount": 10,
   "orders": [
     {
@@ -17,14 +17,6 @@
       "status": "Ready for Pickup",
       "createdAt": "2026-08-21 12:44:53",
       "updatedAt": "2026-09-06 14:24:15",
-      "completedAt": null
-    },
-    {
-      "orderNumber": "843-2026-0090",
-      "customer": "Old Man and a Tractor",
-      "status": "Ready for Pickup",
-      "createdAt": "2026-08-22 12:39:26",
-      "updatedAt": "2026-09-05 16:19:11",
       "completedAt": null
     },
     {
@@ -69,6 +61,14 @@
     }
   ],
   "recentlyCompleted": [
+    {
+      "orderNumber": "843-2026-0090",
+      "customer": "Old Man and a Tractor",
+      "status": "Completed",
+      "createdAt": "2026-08-22 12:39:26",
+      "updatedAt": "2026-09-06 19:03:49",
+      "completedAt": "2026-09-06T19:03:49.900Z"
+    },
     {
       "orderNumber": "843-2026-0088",
       "customer": "D. Steen",
@@ -140,14 +140,6 @@
       "createdAt": "2026-07-18 15:53:16",
       "updatedAt": "2026-08-03 12:05:58",
       "completedAt": "2026-08-03T12:05:58.577Z"
-    },
-    {
-      "orderNumber": "843-2026-0080",
-      "customer": "Baker Equipment Worx",
-      "status": "Completed",
-      "createdAt": "2026-07-19 20:47:06",
-      "updatedAt": "2026-07-30 10:11:32",
-      "completedAt": "2026-07-30T10:11:32.593Z"
     }
   ]
 }
