@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T22:30:01.639Z",
+  "generatedAt": "2026-09-08T23:00:01.635Z",
   "count": 7,
   "completedCount": 10,
   "orders": [
@@ -38,17 +38,17 @@
     {
       "orderNumber": "843-2026-0094",
       "customer": "A. Brouse - Halloween SC",
-      "status": "In Production",
+      "status": "In Queue",
       "createdAt": "2026-09-03 20:53:59",
-      "updatedAt": "2026-09-08 11:06:21",
+      "updatedAt": "2026-09-08 22:50:26",
       "completedAt": null
     },
     {
       "orderNumber": "843-2026-0095",
       "customer": "Seymour Staffing",
-      "status": "Order Received",
+      "status": "In Production",
       "createdAt": "2026-09-04 15:35:22",
-      "updatedAt": "2026-09-04 15:35:22",
+      "updatedAt": "2026-09-08 22:50:24",
       "completedAt": null
     },
     {
