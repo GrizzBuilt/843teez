@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T11:00:01.799Z",
+  "generatedAt": "2026-09-08T11:30:01.628Z",
   "count": 7,
   "completedCount": 10,
   "orders": [
@@ -9,14 +9,6 @@
       "status": "Ready for Pickup",
       "createdAt": "2026-08-13 20:35:42",
       "updatedAt": "2026-09-07 18:26:25",
-      "completedAt": null
-    },
-    {
-      "orderNumber": "843-2026-0089",
-      "customer": "Pettitt Construction",
-      "status": "Ready for Pickup",
-      "createdAt": "2026-08-21 12:44:53",
-      "updatedAt": "2026-09-06 14:24:15",
       "completedAt": null
     },
     {
@@ -30,9 +22,9 @@
     {
       "orderNumber": "843-2026-0092",
       "customer": "Ritter Hunting Club",
-      "status": "Order Received",
+      "status": "In Queue",
       "createdAt": "2026-08-30 14:50:25",
-      "updatedAt": "2026-09-04 11:25:43",
+      "updatedAt": "2026-09-08 11:06:14",
       "completedAt": null
     },
     {
@@ -48,7 +40,7 @@
       "customer": "A. Brouse - Halloween SC",
       "status": "In Production",
       "createdAt": "2026-09-03 20:53:59",
-      "updatedAt": "2026-09-07 23:44:46",
+      "updatedAt": "2026-09-08 11:06:21",
       "completedAt": null
     },
     {
@@ -58,9 +50,25 @@
       "createdAt": "2026-09-04 15:35:22",
       "updatedAt": "2026-09-04 15:35:22",
       "completedAt": null
+    },
+    {
+      "orderNumber": "843-2026-0096",
+      "customer": "M.Goldman",
+      "status": "Order Received",
+      "createdAt": "2026-09-08 11:02:06",
+      "updatedAt": "2026-09-08 11:02:06",
+      "completedAt": null
     }
   ],
   "recentlyCompleted": [
+    {
+      "orderNumber": "843-2026-0089",
+      "customer": "Pettitt Construction",
+      "status": "Completed",
+      "createdAt": "2026-08-21 12:44:53",
+      "updatedAt": "2026-09-08 11:06:40",
+      "completedAt": "2026-09-08T11:06:40.350Z"
+    },
     {
       "orderNumber": "843-2026-0090",
       "customer": "Old Man and a Tractor",
@@ -132,14 +140,6 @@
       "createdAt": "2026-07-15 16:14:52",
       "updatedAt": "2026-08-03 12:05:59",
       "completedAt": "2026-08-03T12:05:59.577Z"
-    },
-    {
-      "orderNumber": "843-2026-0079",
-      "customer": "K. Gomez",
-      "status": "Completed",
-      "createdAt": "2026-07-18 15:53:16",
-      "updatedAt": "2026-08-03 12:05:58",
-      "completedAt": "2026-08-03T12:05:58.577Z"
     }
   ]
 }
