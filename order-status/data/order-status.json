@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-10T19:30:01.626Z",
-  "count": 7,
+  "generatedAt": "2026-09-10T20:00:01.621Z",
+  "count": 8,
   "completedCount": 10,
   "orders": [
     {
@@ -22,9 +22,9 @@
     {
       "orderNumber": "843-2026-0092",
       "customer": "Ritter Hunting Club",
-      "status": "In Queue",
+      "status": "In Production",
       "createdAt": "2026-08-30 14:50:25",
-      "updatedAt": "2026-09-09 22:17:36",
+      "updatedAt": "2026-09-10 19:58:39",
       "completedAt": null
     },
     {
@@ -57,6 +57,14 @@
       "status": "Order Received",
       "createdAt": "2026-09-08 11:02:06",
       "updatedAt": "2026-09-10 11:16:56",
+      "completedAt": null
+    },
+    {
+      "orderNumber": "843-2026-0097",
+      "customer": "Samples: Bethany Bible Chapel Car Rally",
+      "status": "Order Received",
+      "createdAt": "2026-09-10 19:55:30",
+      "updatedAt": "2026-09-10 19:59:16",
       "completedAt": null
     }
   ],
