@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T14:00:01.619Z",
+  "generatedAt": "2026-09-12T14:30:01.630Z",
   "count": 8,
   "completedCount": 10,
   "orders": [
@@ -46,17 +46,17 @@
     {
       "orderNumber": "843-2026-0095",
       "customer": "Seymour Staffing",
-      "status": "In Production",
+      "status": "Ready for Pickup",
       "createdAt": "2026-09-04 15:35:22",
-      "updatedAt": "2026-09-09 22:17:30",
+      "updatedAt": "2026-09-12 14:05:33",
       "completedAt": null
     },
     {
       "orderNumber": "843-2026-0096",
       "customer": "M.Goldman",
-      "status": "Order Received",
+      "status": "In Queue",
       "createdAt": "2026-09-08 11:02:06",
-      "updatedAt": "2026-09-10 11:16:56",
+      "updatedAt": "2026-09-12 14:06:16",
       "completedAt": null
     },
     {
