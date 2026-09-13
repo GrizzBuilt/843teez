@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T12:00:01.628Z",
+  "generatedAt": "2026-09-13T12:30:01.631Z",
   "count": 9,
   "completedCount": 10,
   "orders": [
@@ -62,9 +62,9 @@
     {
       "orderNumber": "843-2026-0097",
       "customer": "Samples: Bethany Bible Chapel Car Rally",
-      "status": "Order Received",
+      "status": "Ready for Pickup",
       "createdAt": "2026-09-10 19:55:30",
-      "updatedAt": "2026-09-12 22:35:53",
+      "updatedAt": "2026-09-13 12:08:45",
       "completedAt": null
     },
     {
