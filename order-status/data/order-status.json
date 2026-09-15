@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-15T20:00:01.624Z",
-  "count": 9,
+  "generatedAt": "2026-09-15T20:30:01.641Z",
+  "count": 8,
   "completedCount": 10,
   "orders": [
     {
@@ -16,7 +16,7 @@
       "customer": "Check Channels",
       "status": "Order Received",
       "createdAt": "2026-08-25 18:47:29",
-      "updatedAt": "2026-09-12 22:35:39",
+      "updatedAt": "2026-09-15 20:10:59",
       "completedAt": null
     },
     {
@@ -48,15 +48,7 @@
       "customer": "M.Goldman",
       "status": "In Production",
       "createdAt": "2026-09-08 11:02:06",
-      "updatedAt": "2026-09-12 22:35:02",
-      "completedAt": null
-    },
-    {
-      "orderNumber": "843-2026-0097",
-      "customer": "Samples: Bethany Bible Chapel Car Rally",
-      "status": "Ready for Pickup",
-      "createdAt": "2026-09-10 19:55:30",
-      "updatedAt": "2026-09-13 12:08:45",
+      "updatedAt": "2026-09-15 20:11:21",
       "completedAt": null
     },
     {
@@ -69,14 +61,22 @@
     },
     {
       "orderNumber": "843-2026-0099",
-      "customer": "Daily with Corety",
+      "customer": "Daily with Corey",
       "status": "Order Received",
       "createdAt": "2026-09-15 15:50:18",
-      "updatedAt": "2026-09-15 15:50:18",
+      "updatedAt": "2026-09-15 20:11:10",
       "completedAt": null
     }
   ],
   "recentlyCompleted": [
+    {
+      "orderNumber": "843-2026-0097",
+      "customer": "Samples: Bethany Bible Chapel Car Rally",
+      "status": "Completed",
+      "createdAt": "2026-09-10 19:55:30",
+      "updatedAt": "2026-09-15 20:10:51",
+      "completedAt": "2026-09-15T20:10:51.012Z"
+    },
     {
       "orderNumber": "843-2026-0095",
       "customer": "Seymour Staffing",
@@ -148,14 +148,6 @@
       "createdAt": "2026-08-04 11:08:21",
       "updatedAt": "2026-08-16 09:03:52",
       "completedAt": "2026-08-16T09:03:52.216Z"
-    },
-    {
-      "orderNumber": "843-2026-0082",
-      "customer": "Acacia Endeavors",
-      "status": "Completed",
-      "createdAt": "2026-08-04 16:31:05",
-      "updatedAt": "2026-08-13 20:45:29",
-      "completedAt": "2026-08-13T20:45:29.666Z"
     }
   ]
 }
