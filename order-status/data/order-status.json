@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T23:00:01.655Z",
+  "generatedAt": "2026-09-16T23:30:01.639Z",
   "count": 8,
   "completedCount": 10,
   "orders": [
@@ -46,9 +46,9 @@
     {
       "orderNumber": "843-2026-0096",
       "customer": "M.Goldman",
-      "status": "In Production",
+      "status": "Ready for Pickup",
       "createdAt": "2026-09-08 11:02:06",
-      "updatedAt": "2026-09-15 20:11:21",
+      "updatedAt": "2026-09-16 23:17:39",
       "completedAt": null
     },
     {
