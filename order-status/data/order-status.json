@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T11:00:01.623Z",
-  "count": 8,
+  "generatedAt": "2026-09-17T11:30:01.612Z",
+  "count": 9,
   "completedCount": 10,
   "orders": [
     {
@@ -65,6 +65,14 @@
       "status": "Order Received",
       "createdAt": "2026-09-15 15:50:18",
       "updatedAt": "2026-09-15 20:11:10",
+      "completedAt": null
+    },
+    {
+      "orderNumber": "843-2026-0100",
+      "customer": "Scouts Home Services",
+      "status": "Order Received",
+      "createdAt": "2026-09-17 11:13:17",
+      "updatedAt": "2026-09-17 11:13:17",
       "completedAt": null
     }
   ],
