@@ -7,7 +7,7 @@
   Notes:
   - Added AI/search-friendly Quick Answers section using static HTML only.
   - Expanded FAQPage schema to match high-value local search questions.
-  - Added links to the unpriced Company Casuals apparel catalog.\n  - Added lightweight Best of the Beach 2026 Silver Winner recognition using HTML/CSS only.\n  - No new scripts, fonts, images, tracking, or render-blocking assets added.
+  - Added links to the unpriced Company Casuals apparel catalog.\n  - Added a lightweight embedded WebP Best of the Beach 2026 Silver Winner trust graphic.\n  - No new scripts, fonts, tracking, render-blocking assets, or extra image request added.
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -207,43 +207,6 @@
       color:#fff;
       text-decoration:underline;
       text-underline-offset:3px;
-    }
-
-    .award-badge{
-      display:inline-flex;
-      align-items:center;
-      gap:.5rem;
-      padding:.45rem .8rem;
-      border:1px solid #b8c2cc;
-      border-radius:999px;
-      background:linear-gradient(180deg,#fff,#eef2f5);
-      color:#003466;
-      font-size:.78rem;
-      font-weight:800;
-      box-shadow:0 2px 8px rgba(0,52,102,.08);
-    }
-
-    .award-medal{
-      display:inline-grid;
-      place-items:center;
-      width:1.65rem;
-      height:1.65rem;
-      border-radius:50%;
-      background:linear-gradient(145deg,#f8fafc,#aeb8c2);
-      border:1px solid #94a3b8;
-      color:#003466;
-      font-size:.95rem;
-      line-height:1;
-      flex:none;
-    }
-
-    .award-card{
-      position:relative;
-      overflow:hidden;
-      background:linear-gradient(135deg,#ffffff,#f1f6f9);
-      border:1px solid #d7e0e7;
-      border-radius:1rem;
-      box-shadow:0 4px 14px rgba(0,52,102,.08);
     }
 
     @media (min-width:640px){
@@ -564,7 +527,7 @@
        style="background: rgba(240,247,250,0.94); border: 1px solid rgba(255,255,255,0.35);">
 
     <div class="award-strip" role="status">
-      🥈 2026 Best of the Beach Silver Winner for Best Men’s Clothing Store — <a href="#best-of-the-beach">Thanks, Conway!</a>
+      🥈 2026 Best of the Beach Silver Winner for Best Men’s Clothing Store — <span>Thanks, Horry County!</span>
     </div>
 
     <header class="text-center mb-10">
@@ -586,10 +549,15 @@
       </p>
 
       <div class="mt-4 flex justify-center">
-        <a href="#best-of-the-beach" class="award-badge" aria-label="2026 Best of the Beach Silver Winner for Best Men's Clothing Store">
-          <span class="award-medal" aria-hidden="true">★</span>
-          <span>2026 Best of the Beach • Silver Winner</span>
-        </a>
+        <img
+          src="data:image/webp;base64,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"
+          alt="843 Teez — 2026 Best of the Beach Silver Winner for Best Men’s Clothing Store"
+          class="w-full max-w-[280px] sm:max-w-[400px] h-auto"
+          width="280"
+          height="93"
+          loading="eager"
+          decoding="async"
+        />
       </div>
 
       <h1 class="text-3xl sm:text-5xl font-extrabold text-[#003466] leading-tight mt-2 max-w-4xl mx-auto">
