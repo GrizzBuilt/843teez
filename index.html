@@ -3,11 +3,11 @@
   Purpose: 843 Teez homepage
   Data: Static homepage content + internal links
   Maintained by: GrizzBuilt LLC
-  Last Updated: 2026-09-18
+  Last Updated: 2026-09-20
   Notes:
   - Added AI/search-friendly Quick Answers section using static HTML only.
   - Expanded FAQPage schema to match high-value local search questions.
-  - Added links to the unpriced Company Casuals apparel catalog.\n  - No new scripts, fonts, images, tracking, or render-blocking assets added.
+  - Added links to the unpriced Company Casuals apparel catalog.\n  - Added lightweight Best of the Beach 2026 Silver Winner recognition using HTML/CSS only.\n  - No new scripts, fonts, images, tracking, or render-blocking assets added.
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -191,6 +191,74 @@
       background:#9a3412;
     }
 
+    .award-strip{
+      margin:-1.5rem -1.5rem 1.75rem;
+      padding:.7rem 1rem;
+      background:linear-gradient(90deg,#003466,#005f78,#003466);
+      color:#fff;
+      text-align:center;
+      font-size:.875rem;
+      font-weight:800;
+      letter-spacing:.01em;
+      border-radius:1rem 1rem .75rem .75rem;
+    }
+
+    .award-strip a{
+      color:#fff;
+      text-decoration:underline;
+      text-underline-offset:3px;
+    }
+
+    .award-badge{
+      display:inline-flex;
+      align-items:center;
+      gap:.5rem;
+      padding:.45rem .8rem;
+      border:1px solid #b8c2cc;
+      border-radius:999px;
+      background:linear-gradient(180deg,#fff,#eef2f5);
+      color:#003466;
+      font-size:.78rem;
+      font-weight:800;
+      box-shadow:0 2px 8px rgba(0,52,102,.08);
+    }
+
+    .award-medal{
+      display:inline-grid;
+      place-items:center;
+      width:1.65rem;
+      height:1.65rem;
+      border-radius:50%;
+      background:linear-gradient(145deg,#f8fafc,#aeb8c2);
+      border:1px solid #94a3b8;
+      color:#003466;
+      font-size:.95rem;
+      line-height:1;
+      flex:none;
+    }
+
+    .award-card{
+      position:relative;
+      overflow:hidden;
+      background:linear-gradient(135deg,#ffffff,#f1f6f9);
+      border:1px solid #d7e0e7;
+      border-radius:1rem;
+      box-shadow:0 4px 14px rgba(0,52,102,.08);
+    }
+
+    @media (min-width:640px){
+      .award-strip{
+        margin:-2.5rem -2.5rem 2rem;
+        border-radius:1rem 1rem .75rem .75rem;
+      }
+    }
+
+    @media (min-width:768px){
+      .award-strip{
+        margin:-3rem -3rem 2rem;
+      }
+    }
+
     .section-nav a,
     .touch-link-row a,
     .social-links a,
@@ -347,7 +415,8 @@
         "closes": "17:00"
       }
     ],
-    "priceRange": "$$",
+    "priceRange": "$",
+    "award": "2026 Best of the Beach Silver Winner — Best Men's Clothing Store",
     "sameAs": [
       "https://www.facebook.com/843teez",
       "https://www.instagram.com/843teez"
@@ -494,6 +563,10 @@
        class="max-w-6xl mx-auto p-6 sm:p-10 md:p-12 rounded-2xl shadow-xl"
        style="background: rgba(240,247,250,0.94); border: 1px solid rgba(255,255,255,0.35);">
 
+    <div class="award-strip" role="status">
+      🥈 2026 Best of the Beach Silver Winner for Best Men’s Clothing Store — <a href="#best-of-the-beach">Thanks, Conway!</a>
+    </div>
+
     <header class="text-center mb-10">
       <img
         src="/843teezlogo-275.webp"
@@ -511,6 +584,13 @@
       <p class="text-sm sm:text-base font-bold uppercase tracking-wide text-[#007c9e]">
         Custom t-shirt printing in Conway, SC • Serving Myrtle Beach & the Grand Strand
       </p>
+
+      <div class="mt-4 flex justify-center">
+        <a href="#best-of-the-beach" class="award-badge" aria-label="2026 Best of the Beach Silver Winner for Best Men's Clothing Store">
+          <span class="award-medal" aria-hidden="true">★</span>
+          <span>2026 Best of the Beach • Silver Winner</span>
+        </a>
+      </div>
 
       <h1 class="text-3xl sm:text-5xl font-extrabold text-[#003466] leading-tight mt-2 max-w-4xl mx-auto">
         Custom T-Shirts in Conway, SC
