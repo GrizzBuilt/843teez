@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T22:00:01.629Z",
+  "generatedAt": "2026-09-20T22:30:01.650Z",
   "count": 7,
   "completedCount": 10,
   "orders": [
@@ -38,9 +38,9 @@
     {
       "orderNumber": "843-2026-0094",
       "customer": "A. Brouse - Halloween SC",
-      "status": "In Production",
+      "status": "Ready for Pickup",
       "createdAt": "2026-09-03 20:53:59",
-      "updatedAt": "2026-09-20 16:01:00",
+      "updatedAt": "2026-09-20 22:20:51",
       "completedAt": null
     },
     {
@@ -54,9 +54,9 @@
     {
       "orderNumber": "843-2026-0100",
       "customer": "Scouts Home Services",
-      "status": "In Queue",
+      "status": "In Production",
       "createdAt": "2026-09-17 11:13:17",
-      "updatedAt": "2026-09-20 16:01:12",
+      "updatedAt": "2026-09-20 22:20:58",
       "completedAt": null
     }
   ],
