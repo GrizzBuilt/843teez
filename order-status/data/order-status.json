@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-20T18:30:01.624Z",
-  "count": 9,
+  "generatedAt": "2026-09-20T19:00:01.628Z",
+  "count": 7,
   "completedCount": 10,
   "orders": [
     {
@@ -22,9 +22,9 @@
     {
       "orderNumber": "843-2026-0092",
       "customer": "Ritter Hunting Club",
-      "status": "In Production",
+      "status": "Ready for Pickup",
       "createdAt": "2026-08-30 14:50:25",
-      "updatedAt": "2026-09-20 16:00:46",
+      "updatedAt": "2026-09-20 18:47:37",
       "completedAt": null
     },
     {
@@ -41,22 +41,6 @@
       "status": "In Production",
       "createdAt": "2026-09-03 20:53:59",
       "updatedAt": "2026-09-20 16:01:00",
-      "completedAt": null
-    },
-    {
-      "orderNumber": "843-2026-0096",
-      "customer": "M.Goldman",
-      "status": "Ready for Pickup",
-      "createdAt": "2026-09-08 11:02:06",
-      "updatedAt": "2026-09-16 23:17:39",
-      "completedAt": null
-    },
-    {
-      "orderNumber": "843-2026-0098",
-      "customer": "Right Direction Enterprises",
-      "status": "Ready for Pickup",
-      "createdAt": "2026-09-12 14:41:01",
-      "updatedAt": "2026-09-16 23:37:35",
       "completedAt": null
     },
     {
@@ -77,6 +61,22 @@
     }
   ],
   "recentlyCompleted": [
+    {
+      "orderNumber": "843-2026-0098",
+      "customer": "Right Direction Enterprises",
+      "status": "Completed",
+      "createdAt": "2026-09-12 14:41:01",
+      "updatedAt": "2026-09-20 18:47:46",
+      "completedAt": "2026-09-20T18:47:46.132Z"
+    },
+    {
+      "orderNumber": "843-2026-0096",
+      "customer": "M.Goldman",
+      "status": "Completed",
+      "createdAt": "2026-09-08 11:02:06",
+      "updatedAt": "2026-09-20 18:47:40",
+      "completedAt": "2026-09-20T18:47:40.880Z"
+    },
     {
       "orderNumber": "843-2026-0097",
       "customer": "Samples: Bethany Bible Chapel Car Rally",
@@ -140,22 +140,6 @@
       "createdAt": "2026-08-13 20:36:28",
       "updatedAt": "2026-08-24 23:35:37",
       "completedAt": "2026-08-24T23:35:37.892Z"
-    },
-    {
-      "orderNumber": "843-2026-0087",
-      "customer": "K Gomez",
-      "status": "Completed",
-      "createdAt": "2026-08-16 08:52:31",
-      "updatedAt": "2026-08-18 22:02:49",
-      "completedAt": "2026-08-18T22:02:49.861Z"
-    },
-    {
-      "orderNumber": "843-2026-0081",
-      "customer": "K. Gomes",
-      "status": "Completed",
-      "createdAt": "2026-08-04 11:08:21",
-      "updatedAt": "2026-08-16 09:03:52",
-      "completedAt": "2026-08-16T09:03:52.216Z"
     }
   ]
 }
