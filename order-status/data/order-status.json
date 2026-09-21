@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-21T17:00:01.636Z",
-  "count": 7,
+  "generatedAt": "2026-09-21T17:30:01.651Z",
+  "count": 5,
   "completedCount": 10,
   "orders": [
     {
@@ -9,14 +9,6 @@
       "status": "Ready for Pickup",
       "createdAt": "2026-08-13 20:35:42",
       "updatedAt": "2026-09-07 18:26:25",
-      "completedAt": null
-    },
-    {
-      "orderNumber": "843-2026-0091",
-      "customer": "Check Channels",
-      "status": "Ready for Pickup",
-      "createdAt": "2026-08-25 18:47:29",
-      "updatedAt": "2026-09-20 16:00:57",
       "completedAt": null
     },
     {
@@ -33,14 +25,6 @@
       "status": "Ready for Pickup",
       "createdAt": "2026-09-03 10:53:33",
       "updatedAt": "2026-09-07 18:59:32",
-      "completedAt": null
-    },
-    {
-      "orderNumber": "843-2026-0094",
-      "customer": "A. Brouse - Halloween SC",
-      "status": "Ready for Pickup",
-      "createdAt": "2026-09-03 20:53:59",
-      "updatedAt": "2026-09-20 22:20:51",
       "completedAt": null
     },
     {
@@ -61,6 +45,22 @@
     }
   ],
   "recentlyCompleted": [
+    {
+      "orderNumber": "843-2026-0094",
+      "customer": "A. Brouse - Halloween SC",
+      "status": "Completed",
+      "createdAt": "2026-09-03 20:53:59",
+      "updatedAt": "2026-09-21 17:03:45",
+      "completedAt": "2026-09-21T17:03:45.521Z"
+    },
+    {
+      "orderNumber": "843-2026-0091",
+      "customer": "Check Channels",
+      "status": "Completed",
+      "createdAt": "2026-08-25 18:47:29",
+      "updatedAt": "2026-09-21 17:03:35",
+      "completedAt": "2026-09-21T17:03:35.656Z"
+    },
     {
       "orderNumber": "843-2026-0098",
       "customer": "Right Direction Enterprises",
@@ -124,22 +124,6 @@
       "createdAt": "2026-08-10 16:01:36",
       "updatedAt": "2026-08-31 22:04:49",
       "completedAt": "2026-08-31T22:04:49.338Z"
-    },
-    {
-      "orderNumber": "843-2026-0086",
-      "customer": "S.Bostic",
-      "status": "Completed",
-      "createdAt": "2026-08-16 08:30:03",
-      "updatedAt": "2026-08-31 22:04:47",
-      "completedAt": "2026-08-31T22:04:47.590Z"
-    },
-    {
-      "orderNumber": "843-2026-0085",
-      "customer": "Lefevre Bikes",
-      "status": "Completed",
-      "createdAt": "2026-08-13 20:36:28",
-      "updatedAt": "2026-08-24 23:35:37",
-      "completedAt": "2026-08-24T23:35:37.892Z"
     }
   ]
 }
