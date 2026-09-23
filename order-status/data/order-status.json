@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-23T22:00:01.629Z",
-  "count": 6,
+  "generatedAt": "2026-09-23T22:30:01.623Z",
+  "count": 4,
   "completedCount": 10,
   "orders": [
     {
@@ -9,22 +9,6 @@
       "status": "Ready for Pickup",
       "createdAt": "2026-08-13 20:35:42",
       "updatedAt": "2026-09-07 18:26:25",
-      "completedAt": null
-    },
-    {
-      "orderNumber": "843-2026-0092",
-      "customer": "Ritter Hunting Club",
-      "status": "Ready for Pickup",
-      "createdAt": "2026-08-30 14:50:25",
-      "updatedAt": "2026-09-20 18:47:37",
-      "completedAt": null
-    },
-    {
-      "orderNumber": "843-2026-0093",
-      "customer": "E.Santorella - Halloween SC",
-      "status": "Ready for Pickup",
-      "createdAt": "2026-09-03 10:53:33",
-      "updatedAt": "2026-09-07 18:59:32",
       "completedAt": null
     },
     {
@@ -53,6 +37,22 @@
     }
   ],
   "recentlyCompleted": [
+    {
+      "orderNumber": "843-2026-0093",
+      "customer": "E.Santorella - Halloween SC",
+      "status": "Completed",
+      "createdAt": "2026-09-03 10:53:33",
+      "updatedAt": "2026-09-23 22:29:45",
+      "completedAt": "2026-09-23T22:29:45.044Z"
+    },
+    {
+      "orderNumber": "843-2026-0092",
+      "customer": "Ritter Hunting Club",
+      "status": "Completed",
+      "createdAt": "2026-08-30 14:50:25",
+      "updatedAt": "2026-09-23 22:29:43",
+      "completedAt": "2026-09-23T22:29:43.965Z"
+    },
     {
       "orderNumber": "843-2026-0094",
       "customer": "A. Brouse - Halloween SC",
@@ -116,22 +116,6 @@
       "createdAt": "2026-08-22 12:39:26",
       "updatedAt": "2026-09-06 19:03:49",
       "completedAt": "2026-09-06T19:03:49.900Z"
-    },
-    {
-      "orderNumber": "843-2026-0088",
-      "customer": "D. Steen",
-      "status": "Completed",
-      "createdAt": "2026-08-19 13:05:17",
-      "updatedAt": "2026-08-31 22:04:50",
-      "completedAt": "2026-08-31T22:04:50.372Z"
-    },
-    {
-      "orderNumber": "843-2026-0083",
-      "customer": "Cristie V.",
-      "status": "Completed",
-      "createdAt": "2026-08-10 16:01:36",
-      "updatedAt": "2026-08-31 22:04:49",
-      "completedAt": "2026-08-31T22:04:49.338Z"
     }
   ]
 }
