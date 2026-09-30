@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-30T10:30:01.620Z",
-  "count": 4,
+  "generatedAt": "2026-09-30T11:00:01.624Z",
+  "count": 3,
   "completedCount": 10,
   "orders": [
     {
@@ -20,14 +20,6 @@
       "completedAt": null
     },
     {
-      "orderNumber": "843-2026-0100",
-      "customer": "Scouts Home Services",
-      "status": "Ready for Pickup",
-      "createdAt": "2026-09-17 11:13:17",
-      "updatedAt": "2026-09-27 20:00:02",
-      "completedAt": null
-    },
-    {
       "orderNumber": "843-2026-0101",
       "customer": "Coastal Facility Svcs",
       "status": "In Queue",
@@ -37,6 +29,14 @@
     }
   ],
   "recentlyCompleted": [
+    {
+      "orderNumber": "843-2026-0100",
+      "customer": "Scouts Home Services",
+      "status": "Completed",
+      "createdAt": "2026-09-17 11:13:17",
+      "updatedAt": "2026-09-30 10:33:43",
+      "completedAt": "2026-09-30T10:33:43.194Z"
+    },
     {
       "orderNumber": "843-2026-0093",
       "customer": "E.Santorella - Halloween SC",
@@ -108,14 +108,6 @@
       "createdAt": "2026-08-21 12:44:53",
       "updatedAt": "2026-09-08 11:06:40",
       "completedAt": "2026-09-08T11:06:40.350Z"
-    },
-    {
-      "orderNumber": "843-2026-0090",
-      "customer": "Old Man and a Tractor",
-      "status": "Completed",
-      "createdAt": "2026-08-22 12:39:26",
-      "updatedAt": "2026-09-06 19:03:49",
-      "completedAt": "2026-09-06T19:03:49.900Z"
     }
   ]
 }
