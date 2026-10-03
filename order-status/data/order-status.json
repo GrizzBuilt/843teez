@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T17:30:01.631Z",
+  "generatedAt": "2026-10-03T18:00:01.640Z",
   "count": 3,
   "completedCount": 10,
   "orders": [
@@ -14,9 +14,9 @@
     {
       "orderNumber": "843-2026-0099",
       "customer": "Daily with Corey",
-      "status": "In Production",
+      "status": "Ready for Pickup",
       "createdAt": "2026-09-15 15:50:18",
-      "updatedAt": "2026-10-03 15:39:01",
+      "updatedAt": "2026-10-03 17:31:10",
       "completedAt": null
     },
     {
