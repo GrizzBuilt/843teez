@@ -1,24 +1,8 @@
 {
-  "generatedAt": "2026-10-07T10:00:01.640Z",
-  "count": 3,
+  "generatedAt": "2026-10-07T10:30:01.617Z",
+  "count": 2,
   "completedCount": 10,
   "orders": [
-    {
-      "orderNumber": "843-2026-0084",
-      "customer": "Beach Janitorial Svcs",
-      "status": "Ready for Pickup",
-      "createdAt": "2026-08-13 20:35:42",
-      "updatedAt": "2026-09-07 18:26:25",
-      "completedAt": null
-    },
-    {
-      "orderNumber": "843-2026-0099",
-      "customer": "Daily with Corey",
-      "status": "Ready for Pickup",
-      "createdAt": "2026-09-15 15:50:18",
-      "updatedAt": "2026-10-03 17:31:10",
-      "completedAt": null
-    },
     {
       "orderNumber": "843-2026-0101",
       "customer": "Coastal Facility Svcs",
@@ -26,9 +10,33 @@
       "createdAt": "2026-09-23 18:55:24",
       "updatedAt": "2026-10-03 15:29:01",
       "completedAt": null
+    },
+    {
+      "orderNumber": "843-2026-0103",
+      "customer": "Annie’s Memorial Fundraiser",
+      "status": "Order Received",
+      "createdAt": "2026-10-07 10:22:00",
+      "updatedAt": "2026-10-07 10:22:00",
+      "completedAt": null
     }
   ],
   "recentlyCompleted": [
+    {
+      "orderNumber": "843-2026-0099",
+      "customer": "Daily with Corey",
+      "status": "Completed",
+      "createdAt": "2026-09-15 15:50:18",
+      "updatedAt": "2026-10-07 10:28:44",
+      "completedAt": "2026-10-07T10:28:44.631Z"
+    },
+    {
+      "orderNumber": "843-2026-0084",
+      "customer": "Beach Janitorial Svcs",
+      "status": "Completed",
+      "createdAt": "2026-08-13 20:35:42",
+      "updatedAt": "2026-10-07 10:28:43",
+      "completedAt": "2026-10-07T10:28:43.767Z"
+    },
     {
       "orderNumber": "843-2026-0102",
       "customer": "LBachtle",
@@ -92,22 +100,6 @@
       "createdAt": "2026-09-08 11:02:06",
       "updatedAt": "2026-09-20 18:47:40",
       "completedAt": "2026-09-20T18:47:40.880Z"
-    },
-    {
-      "orderNumber": "843-2026-0097",
-      "customer": "Samples: Bethany Bible Chapel Car Rally",
-      "status": "Completed",
-      "createdAt": "2026-09-10 19:55:30",
-      "updatedAt": "2026-09-15 20:10:51",
-      "completedAt": "2026-09-15T20:10:51.012Z"
-    },
-    {
-      "orderNumber": "843-2026-0095",
-      "customer": "Seymour Staffing",
-      "status": "Completed",
-      "createdAt": "2026-09-04 15:35:22",
-      "updatedAt": "2026-09-13 15:47:22",
-      "completedAt": "2026-09-13T15:47:22.656Z"
     }
   ]
 }
