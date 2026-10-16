@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-16T15:30:01.637Z",
-  "count": 4,
+  "generatedAt": "2026-10-16T16:00:01.617Z",
+  "count": 5,
   "completedCount": 10,
   "orders": [
     {
@@ -33,6 +33,14 @@
       "status": "In Queue",
       "createdAt": "2026-10-10 18:52:48",
       "updatedAt": "2026-10-16 11:23:07",
+      "completedAt": null
+    },
+    {
+      "orderNumber": "843-2026-0106",
+      "customer": "Harpun Labs",
+      "status": "Order Received",
+      "createdAt": "2026-10-16 15:41:31",
+      "updatedAt": "2026-10-16 15:41:31",
       "completedAt": null
     }
   ],
