@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T11:00:01.631Z",
+  "generatedAt": "2026-10-16T11:30:01.691Z",
   "count": 4,
   "completedCount": 10,
   "orders": [
@@ -8,7 +8,7 @@
       "customer": "Coastal Facility Svcs",
       "status": "In Production",
       "createdAt": "2026-09-23 18:55:24",
-      "updatedAt": "2026-10-03 15:29:01",
+      "updatedAt": "2026-10-16 11:23:21",
       "completedAt": null
     },
     {
@@ -16,23 +16,23 @@
       "customer": "Annie’s Memorial Fundraiser",
       "status": "Order Received",
       "createdAt": "2026-10-07 10:22:00",
-      "updatedAt": "2026-10-07 10:22:00",
+      "updatedAt": "2026-10-16 11:23:03",
       "completedAt": null
     },
     {
       "orderNumber": "843-2026-0104",
       "customer": "Right Direction Enterprises, LLC",
-      "status": "Order Received",
+      "status": "In Queue",
       "createdAt": "2026-10-10 18:26:23",
-      "updatedAt": "2026-10-10 20:53:40",
+      "updatedAt": "2026-10-16 11:23:05",
       "completedAt": null
     },
     {
       "orderNumber": "843-2026-0105",
       "customer": "Conway Quilters",
-      "status": "Order Received",
+      "status": "In Queue",
       "createdAt": "2026-10-10 18:52:48",
-      "updatedAt": "2026-10-10 20:53:41",
+      "updatedAt": "2026-10-16 11:23:07",
       "completedAt": null
     }
   ],
