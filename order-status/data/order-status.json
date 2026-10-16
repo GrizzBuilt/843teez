@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T16:30:01.453Z",
+  "generatedAt": "2026-10-16T17:00:01.619Z",
   "count": 5,
   "completedCount": 10,
   "orders": [
@@ -22,9 +22,9 @@
     {
       "orderNumber": "843-2026-0104",
       "customer": "Right Direction Enterprises, LLC",
-      "status": "In Queue",
+      "status": "In Production",
       "createdAt": "2026-10-10 18:26:23",
-      "updatedAt": "2026-10-16 11:23:05",
+      "updatedAt": "2026-10-16 16:34:39",
       "completedAt": null
     },
     {
@@ -40,7 +40,7 @@
       "customer": "Harpun Labs",
       "status": "Order Received",
       "createdAt": "2026-10-16 15:41:31",
-      "updatedAt": "2026-10-16 15:41:31",
+      "updatedAt": "2026-10-16 16:34:30",
       "completedAt": null
     }
   ],
