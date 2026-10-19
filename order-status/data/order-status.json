@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T21:30:01.615Z",
+  "generatedAt": "2026-10-19T22:00:01.639Z",
   "count": 4,
   "completedCount": 10,
   "orders": [
@@ -22,17 +22,17 @@
     {
       "orderNumber": "843-2026-0105",
       "customer": "Conway Quilters",
-      "status": "In Production",
+      "status": "In Queue",
       "createdAt": "2026-10-10 18:52:48",
-      "updatedAt": "2026-10-19 09:56:43",
+      "updatedAt": "2026-10-19 21:55:53",
       "completedAt": null
     },
     {
       "orderNumber": "843-2026-0106",
       "customer": "Harpun Labs",
-      "status": "Order Received",
+      "status": "In Production",
       "createdAt": "2026-10-16 15:41:31",
-      "updatedAt": "2026-10-16 16:34:30",
+      "updatedAt": "2026-10-19 21:55:50",
       "completedAt": null
     }
   ],
