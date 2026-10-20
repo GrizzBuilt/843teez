@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T21:30:01.630Z",
+  "generatedAt": "2026-10-20T22:00:01.637Z",
   "count": 4,
   "completedCount": 10,
   "orders": [
@@ -14,9 +14,9 @@
     {
       "orderNumber": "843-2026-0104",
       "customer": "Right Direction Enterprises, LLC",
-      "status": "In Production",
+      "status": "Ready for Pickup",
       "createdAt": "2026-10-10 18:26:23",
-      "updatedAt": "2026-10-17 13:19:28",
+      "updatedAt": "2026-10-20 21:37:00",
       "completedAt": null
     },
     {
