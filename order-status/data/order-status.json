@@ -1,22 +1,14 @@
 {
-  "generatedAt": "2026-10-21T21:30:01.636Z",
-  "count": 4,
+  "generatedAt": "2026-10-21T22:00:01.630Z",
+  "count": 3,
   "completedCount": 10,
   "orders": [
     {
       "orderNumber": "843-2026-0103",
       "customer": "Annie’s Memorial Fundraiser",
-      "status": "Order Received",
+      "status": "In Production",
       "createdAt": "2026-10-07 10:22:00",
-      "updatedAt": "2026-10-16 11:23:03",
-      "completedAt": null
-    },
-    {
-      "orderNumber": "843-2026-0104",
-      "customer": "Right Direction Enterprises, LLC",
-      "status": "Ready for Pickup",
-      "createdAt": "2026-10-10 18:26:23",
-      "updatedAt": "2026-10-20 21:37:00",
+      "updatedAt": "2026-10-21 21:58:05",
       "completedAt": null
     },
     {
@@ -37,6 +29,14 @@
     }
   ],
   "recentlyCompleted": [
+    {
+      "orderNumber": "843-2026-0104",
+      "customer": "Right Direction Enterprises, LLC",
+      "status": "Completed",
+      "createdAt": "2026-10-10 18:26:23",
+      "updatedAt": "2026-10-21 21:57:53",
+      "completedAt": "2026-10-21T21:57:53.891Z"
+    },
     {
       "orderNumber": "843-2026-0101",
       "customer": "Coastal Facility Svcs",
@@ -108,14 +108,6 @@
       "createdAt": "2026-08-25 18:47:29",
       "updatedAt": "2026-09-21 17:03:35",
       "completedAt": "2026-09-21T17:03:35.656Z"
-    },
-    {
-      "orderNumber": "843-2026-0098",
-      "customer": "Right Direction Enterprises",
-      "status": "Completed",
-      "createdAt": "2026-09-12 14:41:01",
-      "updatedAt": "2026-09-20 18:47:46",
-      "completedAt": "2026-09-20T18:47:46.132Z"
     }
   ]
 }
