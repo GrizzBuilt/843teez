@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-22T00:30:01.635Z",
-  "count": 3,
+  "generatedAt": "2026-10-22T01:00:01.646Z",
+  "count": 4,
   "completedCount": 10,
   "orders": [
     {
@@ -25,6 +25,14 @@
       "status": "In Production",
       "createdAt": "2026-10-16 15:41:31",
       "updatedAt": "2026-10-19 21:55:50",
+      "completedAt": null
+    },
+    {
+      "orderNumber": "843-2026-0107",
+      "customer": "Perry Insurance",
+      "status": "Order Received",
+      "createdAt": "2026-10-22 00:47:32",
+      "updatedAt": "2026-10-22 00:47:32",
       "completedAt": null
     }
   ],
