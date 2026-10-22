@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T22:30:01.623Z",
+  "generatedAt": "2026-10-22T23:00:01.634Z",
   "count": 4,
   "completedCount": 10,
   "orders": [
@@ -22,9 +22,9 @@
     {
       "orderNumber": "843-2026-0106",
       "customer": "Harpun Labs",
-      "status": "In Production",
+      "status": "Ready for Pickup",
       "createdAt": "2026-10-16 15:41:31",
-      "updatedAt": "2026-10-19 21:55:50",
+      "updatedAt": "2026-10-22 22:33:22",
       "completedAt": null
     },
     {
