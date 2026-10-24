@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-24T23:00:01.631Z",
-  "count": 4,
+  "generatedAt": "2026-10-24T23:30:01.813Z",
+  "count": 3,
   "completedCount": 10,
   "orders": [
     {
@@ -20,14 +20,6 @@
       "completedAt": null
     },
     {
-      "orderNumber": "843-2026-0106",
-      "customer": "Harpun Labs",
-      "status": "Ready for Pickup",
-      "createdAt": "2026-10-16 15:41:31",
-      "updatedAt": "2026-10-22 22:33:22",
-      "completedAt": null
-    },
-    {
       "orderNumber": "843-2026-0107",
       "customer": "Perry Insurance",
       "status": "Order Received",
@@ -37,6 +29,14 @@
     }
   ],
   "recentlyCompleted": [
+    {
+      "orderNumber": "843-2026-0106",
+      "customer": "Harpun Labs",
+      "status": "Completed",
+      "createdAt": "2026-10-16 15:41:31",
+      "updatedAt": "2026-10-24 23:07:36",
+      "completedAt": "2026-10-24T23:07:36.854Z"
+    },
     {
       "orderNumber": "843-2026-0104",
       "customer": "Right Direction Enterprises, LLC",
@@ -108,14 +108,6 @@
       "createdAt": "2026-09-03 20:53:59",
       "updatedAt": "2026-09-21 17:03:45",
       "completedAt": "2026-09-21T17:03:45.521Z"
-    },
-    {
-      "orderNumber": "843-2026-0091",
-      "customer": "Check Channels",
-      "status": "Completed",
-      "createdAt": "2026-08-25 18:47:29",
-      "updatedAt": "2026-09-21 17:03:35",
-      "completedAt": "2026-09-21T17:03:35.656Z"
     }
   ]
 }
