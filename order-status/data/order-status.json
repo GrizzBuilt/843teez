@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T17:00:01.633Z",
+  "generatedAt": "2026-11-07T17:30:01.619Z",
   "count": 8,
   "completedCount": 10,
   "orders": [
@@ -46,9 +46,9 @@
     {
       "orderNumber": "843-2026-0111",
       "customer": "Dew-itt RIght Construcdtion",
-      "status": "In Production",
+      "status": "In Queue",
       "createdAt": "2026-11-03 11:40:27",
-      "updatedAt": "2026-11-07 14:39:10",
+      "updatedAt": "2026-11-07 17:14:47",
       "completedAt": null
     },
     {
