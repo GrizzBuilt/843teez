@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-08T16:00:01.627Z",
+  "generatedAt": "2026-11-08T16:30:01.619Z",
   "count": 8,
   "completedCount": 10,
   "orders": [
     {
       "orderNumber": "843-2026-0103",
       "customer": "Annie’s Memorial Fundraiser",
-      "status": "In Production",
+      "status": "Ready for Pickup",
       "createdAt": "2026-10-07 10:22:00",
-      "updatedAt": "2026-10-21 21:58:05",
+      "updatedAt": "2026-11-08 16:14:02",
       "completedAt": null
     },
     {
