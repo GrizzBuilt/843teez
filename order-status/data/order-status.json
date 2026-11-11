@@ -1,22 +1,14 @@
 {
-  "generatedAt": "2026-11-11T20:00:01.616Z",
-  "count": 9,
+  "generatedAt": "2026-11-11T20:30:01.612Z",
+  "count": 7,
   "completedCount": 10,
   "orders": [
     {
-      "orderNumber": "843-2026-0103",
-      "customer": "Annie’s Memorial Fundraiser",
-      "status": "Ready for Pickup",
-      "createdAt": "2026-10-07 10:22:00",
-      "updatedAt": "2026-11-08 16:14:02",
-      "completedAt": null
-    },
-    {
       "orderNumber": "843-2026-0105",
       "customer": "Conway Quilters",
-      "status": "In Queue",
+      "status": "In Production",
       "createdAt": "2026-10-10 18:52:48",
-      "updatedAt": "2026-10-19 21:55:53",
+      "updatedAt": "2026-11-11 20:14:13",
       "completedAt": null
     },
     {
@@ -30,9 +22,9 @@
     {
       "orderNumber": "843-2026-0108",
       "customer": "Grand Strand Young Life Fall",
-      "status": "In Production",
+      "status": "Ready for Pickup",
       "createdAt": "2026-10-28 13:20:45",
-      "updatedAt": "2026-11-08 18:51:04",
+      "updatedAt": "2026-11-11 20:14:10",
       "completedAt": null
     },
     {
@@ -49,14 +41,6 @@
       "status": "In Queue",
       "createdAt": "2026-11-03 11:40:27",
       "updatedAt": "2026-11-07 17:14:47",
-      "completedAt": null
-    },
-    {
-      "orderNumber": "843-2026-0112",
-      "customer": "Myrtle Party & Fun Rentals LLC",
-      "status": "Ready for Pickup",
-      "createdAt": "2026-11-04 00:08:13",
-      "updatedAt": "2026-11-07 16:44:41",
       "completedAt": null
     },
     {
@@ -77,6 +61,22 @@
     }
   ],
   "recentlyCompleted": [
+    {
+      "orderNumber": "843-2026-0103",
+      "customer": "Annie’s Memorial Fundraiser",
+      "status": "Completed",
+      "createdAt": "2026-10-07 10:22:00",
+      "updatedAt": "2026-11-11 20:14:23",
+      "completedAt": "2026-11-11T20:14:23.123Z"
+    },
+    {
+      "orderNumber": "843-2026-0112",
+      "customer": "Myrtle Party & Fun Rentals LLC",
+      "status": "Completed",
+      "createdAt": "2026-11-04 00:08:13",
+      "updatedAt": "2026-11-11 20:14:21",
+      "completedAt": "2026-11-11T20:14:21.643Z"
+    },
     {
       "orderNumber": "843-2026-0110",
       "customer": "The Weavers",
@@ -140,22 +140,6 @@
       "createdAt": "2026-09-17 11:13:17",
       "updatedAt": "2026-09-30 10:33:43",
       "completedAt": "2026-09-30T10:33:43.194Z"
-    },
-    {
-      "orderNumber": "843-2026-0093",
-      "customer": "E.Santorella - Halloween SC",
-      "status": "Completed",
-      "createdAt": "2026-09-03 10:53:33",
-      "updatedAt": "2026-09-23 22:29:45",
-      "completedAt": "2026-09-23T22:29:45.044Z"
-    },
-    {
-      "orderNumber": "843-2026-0092",
-      "customer": "Ritter Hunting Club",
-      "status": "Completed",
-      "createdAt": "2026-08-30 14:50:25",
-      "updatedAt": "2026-09-23 22:29:43",
-      "completedAt": "2026-09-23T22:29:43.965Z"
     }
   ]
 }
