@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-13T16:30:01.637Z",
-  "count": 7,
+  "generatedAt": "2026-11-13T17:00:01.630Z",
+  "count": 6,
   "completedCount": 10,
   "orders": [
     {
@@ -17,14 +17,6 @@
       "status": "In Production",
       "createdAt": "2026-10-22 00:47:32",
       "updatedAt": "2026-11-07 16:45:01",
-      "completedAt": null
-    },
-    {
-      "orderNumber": "843-2026-0108",
-      "customer": "Grand Strand Young Life Fall",
-      "status": "Ready for Pickup",
-      "createdAt": "2026-10-28 13:20:45",
-      "updatedAt": "2026-11-11 20:14:10",
       "completedAt": null
     },
     {
@@ -61,6 +53,14 @@
     }
   ],
   "recentlyCompleted": [
+    {
+      "orderNumber": "843-2026-0108",
+      "customer": "Grand Strand Young Life Fall",
+      "status": "Completed",
+      "createdAt": "2026-10-28 13:20:45",
+      "updatedAt": "2026-11-13 16:40:59",
+      "completedAt": "2026-11-13T16:40:59.542Z"
+    },
     {
       "orderNumber": "843-2026-0103",
       "customer": "Annie’s Memorial Fundraiser",
@@ -132,14 +132,6 @@
       "createdAt": "2026-10-03 15:38:41",
       "updatedAt": "2026-10-03 15:38:56",
       "completedAt": "2026-10-03T15:38:56.081Z"
-    },
-    {
-      "orderNumber": "843-2026-0100",
-      "customer": "Scouts Home Services",
-      "status": "Completed",
-      "createdAt": "2026-09-17 11:13:17",
-      "updatedAt": "2026-09-30 10:33:43",
-      "completedAt": "2026-09-30T10:33:43.194Z"
     }
   ]
 }
