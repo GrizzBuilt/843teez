@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T10:30:01.633Z",
+  "generatedAt": "2026-11-14T11:00:01.613Z",
   "count": 6,
   "completedCount": 10,
   "orders": [
@@ -30,25 +30,25 @@
     {
       "orderNumber": "843-2026-0111",
       "customer": "Dew-itt RIght Construcdtion",
-      "status": "In Queue",
+      "status": "In Production",
       "createdAt": "2026-11-03 11:40:27",
-      "updatedAt": "2026-11-07 17:14:47",
+      "updatedAt": "2026-11-14 10:50:23",
       "completedAt": null
     },
     {
       "orderNumber": "843-2026-0113",
       "customer": "K. Slagle",
-      "status": "Order Received",
+      "status": "In Queue",
       "createdAt": "2026-11-05 16:34:18",
-      "updatedAt": "2026-11-08 19:26:18",
+      "updatedAt": "2026-11-14 10:50:15",
       "completedAt": null
     },
     {
       "orderNumber": "843-2026-0114",
       "customer": "B.Kurtzman",
-      "status": "Order Received",
+      "status": "In Queue",
       "createdAt": "2026-11-08 19:26:59",
-      "updatedAt": "2026-11-08 19:26:59",
+      "updatedAt": "2026-11-14 10:50:16",
       "completedAt": null
     }
   ],
