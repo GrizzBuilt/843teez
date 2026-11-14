@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T12:30:01.615Z",
+  "generatedAt": "2026-11-14T13:00:01.611Z",
   "count": 6,
   "completedCount": 10,
   "orders": [
@@ -46,9 +46,9 @@
     {
       "orderNumber": "843-2026-0114",
       "customer": "B.Kurtzman",
-      "status": "In Queue",
+      "status": "Ready for Pickup",
       "createdAt": "2026-11-08 19:26:59",
-      "updatedAt": "2026-11-14 10:50:16",
+      "updatedAt": "2026-11-14 12:51:24",
       "completedAt": null
     }
   ],
