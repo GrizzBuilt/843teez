@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T12:00:01.615Z",
+  "generatedAt": "2026-11-14T12:30:01.615Z",
   "count": 6,
   "completedCount": 10,
   "orders": [
@@ -38,9 +38,9 @@
     {
       "orderNumber": "843-2026-0113",
       "customer": "K. Slagle",
-      "status": "In Queue",
+      "status": "Ready for Pickup",
       "createdAt": "2026-11-05 16:34:18",
-      "updatedAt": "2026-11-14 10:50:15",
+      "updatedAt": "2026-11-14 12:20:33",
       "completedAt": null
     },
     {
