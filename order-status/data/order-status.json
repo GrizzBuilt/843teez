@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T20:00:01.628Z",
+  "generatedAt": "2026-11-15T20:30:01.612Z",
   "count": 7,
   "completedCount": 10,
   "orders": [
@@ -30,9 +30,9 @@
     {
       "orderNumber": "843-2026-0111",
       "customer": "Dew-itt RIght Construction",
-      "status": "In Production",
+      "status": "Ready for Pickup",
       "createdAt": "2026-11-03 11:40:27",
-      "updatedAt": "2026-11-15 12:16:16",
+      "updatedAt": "2026-11-15 20:27:18",
       "completedAt": null
     },
     {
