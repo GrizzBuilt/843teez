@@ -1,16 +1,8 @@
 {
-  "generatedAt": "2026-11-16T22:00:01.622Z",
-  "count": 7,
+  "generatedAt": "2026-11-16T22:30:01.623Z",
+  "count": 5,
   "completedCount": 10,
   "orders": [
-    {
-      "orderNumber": "843-2026-0105",
-      "customer": "Conway Quilters",
-      "status": "Ready for Pickup",
-      "createdAt": "2026-10-10 18:52:48",
-      "updatedAt": "2026-11-15 19:01:40",
-      "completedAt": null
-    },
     {
       "orderNumber": "843-2026-0107",
       "customer": "Perry Insurance",
@@ -44,14 +36,6 @@
       "completedAt": null
     },
     {
-      "orderNumber": "843-2026-0114",
-      "customer": "B.Kurtzman",
-      "status": "Ready for Pickup",
-      "createdAt": "2026-11-08 19:26:59",
-      "updatedAt": "2026-11-14 12:51:24",
-      "completedAt": null
-    },
-    {
       "orderNumber": "843-2026-0115",
       "customer": "A.Jordan",
       "status": "Order Received",
@@ -61,6 +45,22 @@
     }
   ],
   "recentlyCompleted": [
+    {
+      "orderNumber": "843-2026-0114",
+      "customer": "B.Kurtzman",
+      "status": "Completed",
+      "createdAt": "2026-11-08 19:26:59",
+      "updatedAt": "2026-11-16 22:29:01",
+      "completedAt": "2026-11-16T22:29:01.307Z"
+    },
+    {
+      "orderNumber": "843-2026-0105",
+      "customer": "Conway Quilters",
+      "status": "Completed",
+      "createdAt": "2026-10-10 18:52:48",
+      "updatedAt": "2026-11-16 22:28:57",
+      "completedAt": "2026-11-16T22:28:57.122Z"
+    },
     {
       "orderNumber": "843-2026-0108",
       "customer": "Grand Strand Young Life Fall",
@@ -124,22 +124,6 @@
       "createdAt": "2026-09-15 15:50:18",
       "updatedAt": "2026-10-07 10:28:44",
       "completedAt": "2026-10-07T10:28:44.631Z"
-    },
-    {
-      "orderNumber": "843-2026-0084",
-      "customer": "Beach Janitorial Svcs",
-      "status": "Completed",
-      "createdAt": "2026-08-13 20:35:42",
-      "updatedAt": "2026-10-07 10:28:43",
-      "completedAt": "2026-10-07T10:28:43.767Z"
-    },
-    {
-      "orderNumber": "843-2026-0102",
-      "customer": "LBachtle",
-      "status": "Completed",
-      "createdAt": "2026-10-03 15:38:41",
-      "updatedAt": "2026-10-03 15:38:56",
-      "completedAt": "2026-10-03T15:38:56.081Z"
     }
   ]
 }
