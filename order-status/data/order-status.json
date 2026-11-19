@@ -1,22 +1,14 @@
 {
-  "generatedAt": "2026-11-19T12:30:01.623Z",
-  "count": 5,
+  "generatedAt": "2026-11-19T13:00:01.618Z",
+  "count": 3,
   "completedCount": 10,
   "orders": [
     {
       "orderNumber": "843-2026-0107",
       "customer": "Perry Insurance",
-      "status": "In Production",
-      "createdAt": "2026-10-22 00:47:32",
-      "updatedAt": "2026-11-07 16:45:01",
-      "completedAt": null
-    },
-    {
-      "orderNumber": "843-2026-0109",
-      "customer": "M.Girardi",
       "status": "Ready for Pickup",
-      "createdAt": "2026-10-29 00:42:52",
-      "updatedAt": "2026-11-04 00:06:47",
+      "createdAt": "2026-10-22 00:47:32",
+      "updatedAt": "2026-11-19 12:31:00",
       "completedAt": null
     },
     {
@@ -25,14 +17,6 @@
       "status": "Ready for Pickup",
       "createdAt": "2026-11-03 11:40:27",
       "updatedAt": "2026-11-15 20:27:18",
-      "completedAt": null
-    },
-    {
-      "orderNumber": "843-2026-0113",
-      "customer": "K. Slagle",
-      "status": "Ready for Pickup",
-      "createdAt": "2026-11-05 16:34:18",
-      "updatedAt": "2026-11-14 12:20:33",
       "completedAt": null
     },
     {
@@ -45,6 +29,22 @@
     }
   ],
   "recentlyCompleted": [
+    {
+      "orderNumber": "843-2026-0113",
+      "customer": "K. Slagle",
+      "status": "Completed",
+      "createdAt": "2026-11-05 16:34:18",
+      "updatedAt": "2026-11-19 12:31:16",
+      "completedAt": "2026-11-19T12:31:16.470Z"
+    },
+    {
+      "orderNumber": "843-2026-0109",
+      "customer": "M.Girardi",
+      "status": "Completed",
+      "createdAt": "2026-10-29 00:42:52",
+      "updatedAt": "2026-11-19 12:31:09",
+      "completedAt": "2026-11-19T12:31:09.689Z"
+    },
     {
       "orderNumber": "843-2026-0114",
       "customer": "B.Kurtzman",
@@ -108,22 +108,6 @@
       "createdAt": "2026-10-10 18:26:23",
       "updatedAt": "2026-10-21 21:57:53",
       "completedAt": "2026-10-21T21:57:53.891Z"
-    },
-    {
-      "orderNumber": "843-2026-0101",
-      "customer": "Coastal Facility Svcs",
-      "status": "Completed",
-      "createdAt": "2026-09-23 18:55:24",
-      "updatedAt": "2026-10-19 09:56:41",
-      "completedAt": "2026-10-19T09:56:41.520Z"
-    },
-    {
-      "orderNumber": "843-2026-0099",
-      "customer": "Daily with Corey",
-      "status": "Completed",
-      "createdAt": "2026-09-15 15:50:18",
-      "updatedAt": "2026-10-07 10:28:44",
-      "completedAt": "2026-10-07T10:28:44.631Z"
     }
   ]
 }
