@@ -1,24 +1,8 @@
 {
-  "generatedAt": "2026-11-20T11:30:01.630Z",
-  "count": 3,
+  "generatedAt": "2026-11-20T12:00:01.616Z",
+  "count": 1,
   "completedCount": 10,
   "orders": [
-    {
-      "orderNumber": "843-2026-0107",
-      "customer": "Perry Insurance",
-      "status": "Ready for Pickup",
-      "createdAt": "2026-10-22 00:47:32",
-      "updatedAt": "2026-11-19 12:31:00",
-      "completedAt": null
-    },
-    {
-      "orderNumber": "843-2026-0111",
-      "customer": "Dew-itt RIght Construction",
-      "status": "Ready for Pickup",
-      "createdAt": "2026-11-03 11:40:27",
-      "updatedAt": "2026-11-15 20:27:18",
-      "completedAt": null
-    },
     {
       "orderNumber": "843-2026-0115",
       "customer": "A.Jordan",
@@ -29,6 +13,22 @@
     }
   ],
   "recentlyCompleted": [
+    {
+      "orderNumber": "843-2026-0111",
+      "customer": "Dew-itt RIght Construction",
+      "status": "Completed",
+      "createdAt": "2026-11-03 11:40:27",
+      "updatedAt": "2026-11-20 11:41:17",
+      "completedAt": "2026-11-20T11:41:17.821Z"
+    },
+    {
+      "orderNumber": "843-2026-0107",
+      "customer": "Perry Insurance",
+      "status": "Completed",
+      "createdAt": "2026-10-22 00:47:32",
+      "updatedAt": "2026-11-20 11:41:16",
+      "completedAt": "2026-11-20T11:41:16.928Z"
+    },
     {
       "orderNumber": "843-2026-0113",
       "customer": "K. Slagle",
@@ -92,22 +92,6 @@
       "createdAt": "2026-10-29 22:25:23",
       "updatedAt": "2026-11-07 16:44:45",
       "completedAt": "2026-11-07T16:44:45.966Z"
-    },
-    {
-      "orderNumber": "843-2026-0106",
-      "customer": "Harpun Labs",
-      "status": "Completed",
-      "createdAt": "2026-10-16 15:41:31",
-      "updatedAt": "2026-10-24 23:07:36",
-      "completedAt": "2026-10-24T23:07:36.854Z"
-    },
-    {
-      "orderNumber": "843-2026-0104",
-      "customer": "Right Direction Enterprises, LLC",
-      "status": "Completed",
-      "createdAt": "2026-10-10 18:26:23",
-      "updatedAt": "2026-10-21 21:57:53",
-      "completedAt": "2026-10-21T21:57:53.891Z"
     }
   ]
 }
